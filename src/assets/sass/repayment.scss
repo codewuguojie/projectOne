@@ -1,0 +1,117 @@
+.repayment{
+    width: 100%;
+    background: #f9f9f9;
+    .content {
+        width: 100%;
+        margin-bottom: 40px;
+        .position {
+            width: 1200px;
+            margin: 15px auto;
+            img {
+                margin-right: 5px;
+            }
+            span {
+                font-size: 12px;
+                color: #bbb;
+            }
+        }
+        .process{
+            width: 1200px;
+            background: #fff;
+            margin: 0 auto;
+            border-radius: 10px 10px 0 0;
+            border-bottom: 1px solid #dcdfe6;
+            overflow: hidden;
+            .L-top{
+                width: 95%;
+                height: 70px;
+                line-height: 70px;
+                margin-left: 5%;
+                img{
+                    float: left;
+                    width: 22px;
+                    height: 22px;
+                    margin-top: 24px;
+                    margin-right: 10px;
+                }
+                span{
+                    float: left;
+                    font-size: 20px;
+                    color: #666;
+                }
+            }
+        }
+        .list{
+            width: 1200px;
+            margin: 0 auto;
+            padding-bottom: 40px;
+            border-radius: 0 0 10px 10px;
+            background: #fff;
+            .title{
+                width: 90%;
+                padding: 40px 0 20px 0;
+                margin: 0 auto;
+            }
+            .list-table{
+                width: 1120px;
+                padding: 0 0 40px 0;
+                margin: 0 auto;
+                border: 1px solid #ccc;
+                background: url("../../components/repayment/img/bg.jpg") repeat-y;
+                border-radius: 10px;
+                h2{
+                    width: 100%;
+                    text-align: center;
+                    margin: 40px auto 0;
+                    font-size: 16px;
+                    color: #666;
+                }
+                .detail{
+                    width: 100%;
+                    text-align: center;
+                    margin-top: 40px;
+                    span{
+                        font-size: 14px;
+                        color: #666;
+                    }
+                }
+                table{
+                    width: 90%;
+                    margin: 20px auto 100px;
+                    thead{
+                        width: 100%;
+                        line-height: 44px;
+                        background: #f6f6f6;
+                        th{
+                            font-size: 14px;
+                            color: #666;
+                        }
+                    }
+                    tbody{
+                        width: 100%;
+                        line-height: 44px;
+                        th{
+                            font-size: 14px;
+                            color: #666;
+                        }
+                    }
+                    tbody:nth-child(even){
+                        background: #f6fbff;
+                    }
+                    tbody:nth-child(odd){
+                        background: #fff;
+                    }
+                }
+                .upDownload{
+                    margin-left: 6%;
+                    width: 100px;
+                    height: 50px;
+                    line-height: 50px;
+                    span{
+                        color: #54b4fe;
+                    }
+                }
+            }
+        }
+    }
+}

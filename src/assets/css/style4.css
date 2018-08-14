@@ -1,0 +1,123 @@
+/*datasuccess样式*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+html{
+    font-family:'Arial', 'MS Trebuchet', sans-serif;
+    background: #fbfdff;
+    color: #bbb;
+}
+/*首页第一部分 */
+.datasuccess-box{
+    width: 100%;
+    background: #fbfdff;
+}
+
+.datasuccess-box .artical{
+    width: 1200px;
+    margin: 0 auto;/*
+    overflow: hidden;*/
+}
+.datasuccess-box .artical .pagetitle{
+    width: 100%;
+    margin: 10px auto;
+}
+.datasuccess-box .artical .pagetitle h2{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.datasuccess-box .artical .pagetitle .pageimg{
+    width: 485px;
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+}
+.datasuccess-box .artical .pagetitle .pageimg img{
+    position: absolute;
+}
+.datasuccess-box .artical .pagetitle .pageimg img:nth-child(1){
+
+}
+.datasuccess-box .artical .pagetitle .pageimg img:nth-child(2){
+    top: 20px;
+    left: 75px;
+}
+.datasuccess-box .artical .pagetitle .pageimg img:nth-child(3){
+    top: 0;
+    left: 170px;
+}
+.datasuccess-box .artical .pagetitle .pageimg img:nth-child(4){
+    top: 20px;
+    left: 315px;
+}
+.datasuccess-box .artical .pagetitle .pageimg img:nth-child(5){
+    top: 0;
+    left: 420px;
+}
+.datasuccess-box .artical .wenzhang{
+    overflow: hidden;
+    width: 900px;
+    margin: 0 auto 130px;
+    font-size: 20px;
+    box-shadow: 0 0 7px;
+    padding: 90px 50px;
+}
+.datasuccess-box .artical .wenzhang img{
+    margin: 0 0 20px 400px;
+    width: 100px;
+    height: 100px;
+}
+.datasuccess-box .artical .wenzhang h3,.datasuccess-box .artical .wenzhang p{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+.datasuccess-box .artical .wenzhang p span{
+    color: #54b4fe;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

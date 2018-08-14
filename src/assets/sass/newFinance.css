@@ -1,0 +1,198 @@
+.newFinance {
+  width: 100%;
+  background: #f9f9f9; }
+  .newFinance .box {
+    width: 100%; }
+    .newFinance .box .position {
+      width: 1200px;
+      margin: 15px auto; }
+      .newFinance .box .position img {
+        margin-right: 5px; }
+      .newFinance .box .position span {
+        font-size: 12px;
+        color: #bbb; }
+    .newFinance .box .myLimit {
+      width: 1200px;
+      background: #fff;
+      margin: 0 auto 10px;
+      border-radius: 10px;
+      overflow: hidden; }
+      .newFinance .box .myLimit .L-top {
+        width: 95%;
+        height: 70px;
+        line-height: 70px;
+        margin-left: 5%; }
+        .newFinance .box .myLimit .L-top img {
+          float: left;
+          width: 22px;
+          height: 22px;
+          margin-top: 24px;
+          margin-right: 10px; }
+        .newFinance .box .myLimit .L-top span {
+          float: left;
+          font-size: 20px;
+          color: #666; }
+      .newFinance .box .myLimit .limit-show {
+        width: 95%;
+        margin: 40px auto;
+        overflow: hidden; }
+        .newFinance .box .myLimit .limit-show .limit-show-msg {
+          float: left;
+          width: 380px;
+          height: 159px; }
+        .newFinance .box .myLimit .limit-show .limit-show-msg:nth-child(1) {
+          background: url("../../components/finance/img/yyed.png") no-repeat;
+          background-size: 100% 100%; }
+          .newFinance .box .myLimit .limit-show .limit-show-msg:nth-child(1) .yyed {
+            padding: 30px 0 0 43px;
+            font-size: 14px;
+            color: #fff; }
+          .newFinance .box .myLimit .limit-show .limit-show-msg:nth-child(1) .money {
+            padding: 10px 0 0 43px;
+            font-size: 28px;
+            color: #fff; }
+        .newFinance .box .myLimit .limit-show .limit-show-msg:nth-child(2) {
+          background: url("../../components/finance/img/kyed.png") no-repeat;
+          background-size: 100% 100%; }
+          .newFinance .box .myLimit .limit-show .limit-show-msg:nth-child(2) .kyed {
+            padding: 30px 0 0 43px;
+            font-size: 14px;
+            color: #fff; }
+          .newFinance .box .myLimit .limit-show .limit-show-msg:nth-child(2) .money {
+            padding: 10px 0 0 43px;
+            font-size: 28px;
+            color: #fff; }
+        .newFinance .box .myLimit .limit-show .limit-show-msg:nth-child(3) .overdue {
+          padding: 36px 20px 0;
+          font-size: 14px;
+          color: #ff942a; }
+      .newFinance .box .myLimit .finance {
+        width: 90%;
+        margin: 0 auto 40px;
+        overflow: hidden; }
+        .newFinance .box .myLimit .finance .finance-box {
+          float: left;
+          width: 29.3%;
+          margin: 0 2%;
+          text-align: center;
+          background-color: rgba(245, 252, 255, 0.5);
+          border-radius: 10px; }
+          .newFinance .box .myLimit .finance .finance-box h3 {
+            font-size: 18px;
+            color: #666;
+            margin-top: 48px; }
+          .newFinance .box .myLimit .finance .finance-box .title-f {
+            width: 80%;
+            font-size: 12px;
+            color: #666;
+            margin: 18px auto 0; }
+          .newFinance .box .myLimit .finance .finance-box .btn-f {
+            width: 116px;
+            height: 32px;
+            line-height: 32px;
+            text-align: center;
+            color: #fff;
+            background: #54b4fe;
+            font-size: 14px;
+            margin: 30px auto 50px;
+            border: solid 1px #fbfdff;
+            cursor: pointer; }
+    .newFinance .box .order {
+      width: 1200px;
+      background: #fff;
+      margin: 0 auto 10px;
+      border-radius: 10px;
+      overflow: hidden; }
+      .newFinance .box .order .o-top {
+        width: 95%;
+        height: 70px;
+        line-height: 70px;
+        padding-left: 5%;
+        border-bottom: 1px solid rgba(238, 238, 238, 0.6); }
+        .newFinance .box .order .o-top img {
+          float: left;
+          width: 22px;
+          height: 22px;
+          margin-top: 24px;
+          margin-right: 10px; }
+        .newFinance .box .order .o-top span {
+          float: left;
+          font-size: 20px;
+          color: #666; }
+      .newFinance .box .order .state {
+        width: 90%;
+        margin: 20px 5%;
+        overflow: hidden; }
+        .newFinance .box .order .state .btn {
+          height: 32px;
+          line-height: 32px;
+          padding: 0 15px;
+          border: 1px solid #ccc;
+          float: left;
+          margin-right: 10px;
+          font-size: 14px;
+          color: #999;
+          cursor: pointer; }
+        .newFinance .box .order .state .active {
+          height: 32px;
+          line-height: 32px;
+          padding: 0 15px;
+          border: 1px solid #54b4fe;
+          float: left;
+          margin-right: 10px;
+          font-size: 14px;
+          color: #54b4fe; }
+      .newFinance .box .order .table {
+        width: 90%;
+        margin: 0 auto; }
+        .newFinance .box .order .table table {
+          width: 100%;
+          margin-bottom: 20px; }
+          .newFinance .box .order .table table thead {
+            width: 100%; }
+            .newFinance .box .order .table table thead th {
+              width: 12.5%;
+              font-size: 12px;
+              color: #666;
+              text-align: left; }
+          .newFinance .box .order .table table tbody {
+            width: 100%;
+            border-bottom: 1px solid rgba(238, 238, 238, 0.6); }
+            .newFinance .box .order .table table tbody th {
+              width: 12.5%;
+              font-size: 12px;
+              color: #999;
+              text-align: left; }
+              .newFinance .box .order .table table tbody th a {
+                cursor: pointer;
+                display: block;
+                color: #54b4fe;
+                padding: 3px 0;
+                text-decoration: underline; }
+        .newFinance .box .order .table .red {
+          width: 100%;
+          border-bottom: 1px solid rgba(238, 238, 238, 0.6);
+          margin-bottom: 20px; }
+          .newFinance .box .order .table .red thead {
+            width: 100%; }
+            .newFinance .box .order .table .red thead th {
+              width: 12.5%;
+              font-size: 12px;
+              color: #666;
+              text-align: left; }
+          .newFinance .box .order .table .red tbody {
+            width: 100%;
+            border-bottom: 1px solid rgba(238, 238, 238, 0.6); }
+            .newFinance .box .order .table .red tbody th {
+              width: 12.5%;
+              font-size: 12px;
+              color: red;
+              text-align: left; }
+              .newFinance .box .order .table .red tbody th a {
+                cursor: pointer;
+                display: block;
+                color: #54b4fe;
+                padding: 3px 0;
+                text-decoration: underline; }
+
+/*# sourceMappingURL=newFinance.css.map */

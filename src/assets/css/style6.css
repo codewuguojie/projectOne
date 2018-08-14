@@ -1,0 +1,186 @@
+/*my页面样式*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+html{
+    font-family: 'Arial', 'MS Trebuchet', sans-serif;
+    background: #fbfdff;
+}
+/*首页第一部分 */
+.myonline-box{
+    width: 100%;
+}
+
+.myonline-box .header{
+    width: 100%;
+    height: 38px;
+    background: #f6f6f6;
+}
+.myonline-box .header .title{
+    width: 1200px;
+    color: #666;
+    font-size: 14px;
+    line-height: 38px;
+    margin: 0 auto;
+}
+/*首页第二部分*/
+.myonline-box .content{
+    width: 1200PX;
+    margin: 0 auto;
+}
+.myonline-box .content .nav{
+    width: 100%;
+    height: 100px;/*
+    background: #ccc;*/
+}
+.myonline-box .content .nav .logo{
+    margin-top: 33px;
+    margin-right: 45px;
+    width: 170px;
+    height: 30px;
+}
+.myonline-box .content .nav .logo img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.myonline-box .content ul{
+    height: 100px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.myonline-box .content ul li{
+    color: #333;
+    height: 50px;
+    line-height: 100px;
+    list-style: none;
+    padding: 0 30px;
+}
+.myonline-box .content ul li p{
+    height: 70px;
+}
+.myonline-box .content .dengzhu{
+    width: 240px;
+    height: 54px;
+    color: #54b4fe;
+    margin-top: 22px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.myonline-box .content .dengzhu span{
+    line-height: 54px;
+}
+
+.myonline-box .my{
+    width: 1200PX;
+    margin: 0 auto;
+}
+.myonline-box .my h3{
+    width: 1200px;
+    text-align: center;
+    padding: 20px 0 30px 0;
+    /*padding: 10px 0 10px 30px;
+    color: #54b4fe;
+    border-bottom: 1px solid #f5f5f5;*/
+}
+.myonline-box .my .top{
+    width: 1200px;
+    box-shadow: 0 0 5px;
+    overflow: hidden;
+}
+.myonline-box .my .top h4{
+    width: 1200px;
+    border-bottom: 1px solid #f5f5f5;
+    padding: 20px 0 20px 30px;
+    color: #54b4fe;
+}
+/*.myonline-box .my .top .neirong{
+    background: #ccc;
+}*/
+.myonline-box .my .top .neirong ul{
+    list-style: none;
+    padding: 10px 0 0 30px;
+}
+.myonline-box .my .top .neirong ul li{
+    padding: 10px 90px;
+}
+.myonline-box .my .top .neirong ul li:nth-child(5){
+    padding: 10px 25px;
+}
+.myonline-box .my .top .neirong ul li:nth-child(6) {
+    padding: 10px 220px;
+}
+.myonline-box .my .top .neirong ul li:nth-child(8) {
+    padding: 10px 65px;
+}
+.myonline-box .my .top .neirong ul li a{
+    color: blue;
+}
+
+.myonline-box .my .top .neirong ul li span{
+    color: red;
+    padding-right: 5px;
+}
+.myonline-box .my .top .neirong ul li p{
+    padding: 5px 0;
+}
+.myonline-box .my .bottom{
+    width: 1200px;
+    box-shadow: 0 0 5px;
+    margin-top: 20px;
+}
+.myonline-box .my .bottom h4{
+    width: 1200px;
+    border-bottom: 1px solid #f5f5f5;
+    padding: 20px 0 20px 30px;
+    color: #54b4fe;
+}
+.myonline-box .my .bottom table{
+    width: 1100px;
+    padding: 20px 0 20px 30px;
+}
+.myonline-box .my .bottom table th{
+    background: #f6f6f6;
+    padding: 10px;
+}
+.myonline-box .my .bottom table td{
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #f6f6f6;
+    mso-cellspacing: 0;
+}
+.myonline-box .footer{
+    width: 100%;
+    height: 80px;
+    background: #333;
+    color: #6a6a6a;
+    margin-top: 100px;
+    position: absolute;
+    bottom: 0;
+}
+.myonline-box .footer .foot{
+    width: 1200px;
+    margin: 0 auto;
+    line-height: 85px;
+    font-size: 12px;
+}
+.myonline-box .footer .foot ul{
+    padding: 0 200px;
+}
+.myonline-box .footer .foot ul li{
+    list-style: none;
+    padding: 0 10px;
+}
+
+
+
+
+
+

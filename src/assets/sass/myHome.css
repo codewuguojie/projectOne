@@ -1,0 +1,126 @@
+.myHome {
+  width: 100%; }
+  .myHome .box {
+    width: 100%; }
+    .myHome .box .banner {
+      width: 100%;
+      height: 420px;
+      overflow: hidden;
+      background: url("../../assets/image/banner.jpg") no-repeat;
+      background-size: 100% 100%; }
+      .myHome .box .banner .content {
+        width: 940px;
+        height: 194px;
+        margin: 90px auto 0; }
+        .myHome .box .banner .content .mcbl {
+          width: 400px;
+          height: 60px;
+          line-height: 60px;
+          text-align: center;
+          margin: 0 auto 35px;
+          font-size: 68px;
+          color: #fff;
+          letter-spacing: 18px; }
+        .myHome .box .banner .content .tips {
+          width: 100%;
+          height: 50px;
+          line-height: 50px;
+          text-align: center;
+          margin: 0 auto 30px;
+          font-size: 48px;
+          color: #fff;
+          letter-spacing: 4px; }
+        .myHome .box .banner .content .descripe {
+          width: 350px;
+          height: 23px;
+          line-height: 23px;
+          text-align: center;
+          font-size: 24px;
+          color: #fff;
+          margin: 0 auto; }
+    .myHome .box .finance {
+      width: 1200px;
+      height: 280px;
+      margin: 0 auto; }
+      .myHome .box .finance .f-box {
+        margin-top: 40px;
+        float: left;
+        width: 33.3%;
+        height: 220px;
+        text-align: center; }
+        .myHome .box .finance .f-box .title {
+          margin-top: 30px;
+          font-size: 18px;
+          color: #fff; }
+        .myHome .box .finance .f-box .type {
+          padding: 0 40px;
+          margin-top: 10px;
+          line-height: 20px;
+          color: #fff;
+          font-size: 12px; }
+        .myHome .box .finance .f-box .btn {
+          width: 120px;
+          height: 32px;
+          line-height: 32px;
+          text-align: center;
+          border: 1px solid #fff;
+          margin: 20px auto 0;
+          font-size: 14px;
+          color: #fff;
+          cursor: pointer; }
+      .myHome .box .finance .f-box:nth-child(1) {
+        background: url("../../assets/image/xmyp.png") no-repeat;
+        background-size: 100% 100%; }
+      .myHome .box .finance .f-box:nth-child(2) {
+        background: url("../../assets/image/xmsc.png") no-repeat;
+        background-size: 100% 100%; }
+      .myHome .box .finance .f-box:nth-child(3) {
+        background: url("../../assets/image/qt.png") no-repeat;
+        background-size: 100% 100%; }
+    .myHome .box .question {
+      width: 1200px;
+      margin: 0 auto 60px;
+      background: #fff;
+      border-radius: 10px;
+      padding-bottom: 40px; }
+      .myHome .box .question .top {
+        width: 95%;
+        padding-left: 5%;
+        height: 69px;
+        border-bottom: 1px solid rgba(238, 238, 238, 0.6);
+        line-height: 69px; }
+        .myHome .box .question .top img {
+          float: left;
+          width: 22px;
+          height: 22px;
+          margin-top: 23px;
+          margin-right: 10px; }
+        .myHome .box .question .top .someQuestion {
+          float: left;
+          font-size: 20px;
+          color: #666; }
+      .myHome .box .question .contQuestion {
+        width: 95%;
+        padding-left: 5%; }
+        .myHome .box .question .contQuestion .q-title {
+          margin-top: 40px;
+          overflow: hidden; }
+          .myHome .box .question .contQuestion .q-title img {
+            float: left;
+            width: 18px;
+            height: 18px;
+            margin: 2px 20px 0 0; }
+          .myHome .box .question .contQuestion .q-title .wenti {
+            float: left;
+            font-size: 16px;
+            color: #666; }
+        .myHome .box .question .contQuestion .q-answer {
+          clear: both;
+          margin-top: 20px; }
+          .myHome .box .question .contQuestion .q-answer span {
+            font-size: 14px;
+            color: #999; }
+          .myHome .box .question .contQuestion .q-answer .q-box-1 {
+            color: #fff; }
+
+/*# sourceMappingURL=myHome.css.map */

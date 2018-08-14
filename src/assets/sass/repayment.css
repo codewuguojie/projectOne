@@ -1,0 +1,95 @@
+.repayment {
+  width: 100%;
+  background: #f9f9f9; }
+  .repayment .content {
+    width: 100%;
+    margin-bottom: 40px; }
+    .repayment .content .position {
+      width: 1200px;
+      margin: 15px auto; }
+      .repayment .content .position img {
+        margin-right: 5px; }
+      .repayment .content .position span {
+        font-size: 12px;
+        color: #bbb; }
+    .repayment .content .process {
+      width: 1200px;
+      background: #fff;
+      margin: 0 auto;
+      border-radius: 10px 10px 0 0;
+      border-bottom: 1px solid #dcdfe6;
+      overflow: hidden; }
+      .repayment .content .process .L-top {
+        width: 95%;
+        height: 70px;
+        line-height: 70px;
+        margin-left: 5%; }
+        .repayment .content .process .L-top img {
+          float: left;
+          width: 22px;
+          height: 22px;
+          margin-top: 24px;
+          margin-right: 10px; }
+        .repayment .content .process .L-top span {
+          float: left;
+          font-size: 20px;
+          color: #666; }
+    .repayment .content .list {
+      width: 1200px;
+      margin: 0 auto;
+      padding-bottom: 40px;
+      border-radius: 0 0 10px 10px;
+      background: #fff; }
+      .repayment .content .list .title {
+        width: 90%;
+        padding: 40px 0 20px 0;
+        margin: 0 auto; }
+      .repayment .content .list .list-table {
+        width: 1120px;
+        padding: 0 0 40px 0;
+        margin: 0 auto;
+        border: 1px solid #ccc;
+        background: url("../../components/repayment/img/bg.jpg") repeat-y;
+        border-radius: 10px; }
+        .repayment .content .list .list-table h2 {
+          width: 100%;
+          text-align: center;
+          margin: 40px auto 0;
+          font-size: 16px;
+          color: #666; }
+        .repayment .content .list .list-table .detail {
+          width: 100%;
+          text-align: center;
+          margin-top: 40px; }
+          .repayment .content .list .list-table .detail span {
+            font-size: 14px;
+            color: #666; }
+        .repayment .content .list .list-table table {
+          width: 90%;
+          margin: 20px auto 100px; }
+          .repayment .content .list .list-table table thead {
+            width: 100%;
+            line-height: 44px;
+            background: #f6f6f6; }
+            .repayment .content .list .list-table table thead th {
+              font-size: 14px;
+              color: #666; }
+          .repayment .content .list .list-table table tbody {
+            width: 100%;
+            line-height: 44px; }
+            .repayment .content .list .list-table table tbody th {
+              font-size: 14px;
+              color: #666; }
+          .repayment .content .list .list-table table tbody:nth-child(even) {
+            background: #f6fbff; }
+          .repayment .content .list .list-table table tbody:nth-child(odd) {
+            background: #fff; }
+        .repayment .content .list .list-table .upDownload {
+          margin-left: 6%;
+          width: 100px;
+          height: 50px;
+          line-height: 50px; }
+          .repayment .content .list .list-table .upDownload span {
+            color: #54b4fe; }
+
+/*# sourceMappingURL=repayment.css.map */

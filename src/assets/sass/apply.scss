@@ -1,0 +1,481 @@
+.apply{
+    width: 100%;
+    background: #f9f9f9;
+    .content{
+        width: 100%;
+        .position{
+            width: 1200px;
+            margin: 15px auto;
+            img{
+                margin-right: 5px;
+            }
+            span{
+                font-size: 12px;
+                color: #bbb;
+            }
+        }
+        .process{
+            width: 1200px;
+            background: #fff;
+            margin: 0 auto;
+            border-radius: 10px 10px 0 0;
+            border-bottom: 1px solid #ccc;
+            overflow: hidden;
+            .L-top{
+                width: 95%;
+                height: 70px;
+                line-height: 70px;
+                margin-left: 5%;
+                img{
+                    float: left;
+                    width: 22px;
+                    height: 22px;
+                    margin-top: 24px;
+                    margin-right: 10px;
+                }
+                span{
+                    float: left;
+                    font-size: 20px;
+                    color: #666;
+                }
+            }
+        }
+        .finance-type{
+            clear: both;
+            width: 1200px;
+            background: #fff;
+            margin: 0 auto;
+            padding-top: 20px;
+            overflow: hidden;
+            .title{
+                width: 90%;
+                margin: 0 5%;
+                overflow: hidden;
+                .left{
+                    float: left;
+                    width: 130px;
+                    font-size: 14px;
+                    color: #666;
+                }
+                .right{
+                    float: left;
+                    .one{
+                        font-size: 14px;
+                        color: #666;
+                    }
+                    .two{
+                        font-size: 12px;
+                        color: #ff942a;
+                    }
+                }
+            }
+            .msg-box{
+                width: 90%;
+                margin: 15px 5% 15px;
+                clear: both;
+                overflow: hidden;
+                height: 46px;
+                .name{
+                    display: inline-block;
+                    width: 130px;
+                    height: 46px;
+                    line-height: 46px;
+                    b{
+                        font-size: 14px;
+                        color: red;
+                    }
+                    span{
+                        font-size: 14px;
+                        color: #666;
+                    }
+                }
+                input{
+                    display: inline-block;
+                    width: 400px;
+                    height: 44px;
+                    padding: 0 10px;
+                    border: 0;
+                    background: #f6f6f6;
+                    color: #ccc;
+                    font-size: 14px;
+                }
+                input:focus{
+                    border: 1px solid #54b4fe;
+                    color: #666;
+                }
+                input::placeholder{
+                    color: #ccc;
+                }
+                .applyBtnBox{
+                    display: inline-block;
+                    width: 820px;
+                    height: 44px;
+                    overflow: hidden;
+                    .choseBtn{
+                        float: left;
+                        width: 152px;
+                        height: 40px;
+                        line-height: 40px;
+                        text-align: center;
+                        margin-right: 20px;
+                        background: #54b4fe;
+                        color: #fff;
+                        font-size: 14px;
+                        cursor: pointer;
+                    }
+                    .addBtn{
+                        float: left;
+                        width: 152px;
+                        height: 40px;
+                        line-height: 40px;
+                        text-align: center;
+                        margin-right: 20px;
+                        background: #54b4fe;
+                        color: #fff;
+                        font-size: 14px;
+                        cursor: pointer;
+                    }
+                }
+                .bankAccount{
+                    width: 800px;
+                    height: 44px;
+                    display: inline-block;
+                    background: #f6fbff;
+                    .zhanghu{
+                        width: 876px;
+                        margin: 0 auto;
+                        li{
+                            width: 96%;
+                            height: 44px;
+                            padding: 0 2%;
+                            line-height: 44px;
+                            background: #f9f9f9;
+                            div{
+                                float: left;
+                                margin-right: 50px;
+                                font-size: 14px;
+                                .acountName{
+                                    color: #999;
+                                }
+                                .acountCont{
+                                    color: #666;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .upLoad{
+            width: 1200px;
+            border-radius: 0 0 10px 10px;
+            background: #fff;
+            margin: 0 auto 60px;
+            overflow: hidden;
+            .up-file{
+                width: 90%;
+                margin: 0 auto 20px;
+                overflow: hidden;
+                .file-name{
+                    width: 200px;
+                    float: left;
+                    b{
+                        color: red;
+                    }
+                    span{
+                        font-size: 14px;
+                        color: #666;
+                    }
+                }
+                .fileInput{
+                    float: left;
+                    .fileInputBox{
+                        width: 125px;
+                        height: 40px;
+                        line-height: 40px;
+                        border: 1px solid #54b4fe;
+                        position: relative;
+                        img{
+                            vertical-align: text-top;
+                            margin-left: 20px;
+                        }
+                        span{
+                            color: #54b4fe;
+                        }
+                        input{
+                            width: 100%;
+                            height: 100%;
+                            opacity: 0;
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            cursor: pointer;
+                        }
+                    }
+                    .file-tips{
+                        margin-top: 10px;
+                        font-size: 12px;
+                        color: #bbb;
+                    }
+                }
+            }
+            ul{
+                width: 90%;
+                margin: 15px auto 40px;
+                li{
+                    width: 500px;
+                    margin: 10px 0 20px 200px;
+                    overflow: hidden;
+                    .file-top{
+                        width: 100%;
+                        margin-bottom: 5px;
+                        overflow: hidden;
+                        .left{
+                            float: left;
+                            img{
+                                margin-right: 10px;
+                            }
+                            span{
+                                font-size: 14px;
+                                color: #54b4fe;
+                            }
+                        }
+                        .right{
+                            float: right;
+                            cursor: pointer;
+                        }
+                    }
+                    .file-bottom{
+                        width: 100%;
+                        height: 1px;
+                        position: relative;
+                        .ccc{
+                            width: 100%;
+                            height: 1px;
+                            background: #ccc;
+                        }
+                        .blue{
+                            width: 50%;
+                            height: 1px;
+                            background: #54b4fe;
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                        }
+                    }
+                }
+            }
+            .btn{
+                width: 300px;
+                height: 44px;
+                line-height: 44px;
+                text-align: center;
+                margin: 0 auto 40px;
+                background: #54b4fe;
+                color: #fff;
+                cursor: pointer;
+            }
+        }
+        .success{
+          width: 1200px;
+          height: 510px;
+          margin: 0 auto 20px;
+          background: #fff;
+          overflow: hidden;
+          img{
+            display: block;
+            width: 72px;
+            height: 72px;
+            margin: 180px auto 20px;
+          }
+          h3{
+            font-size: 18px;
+            color: #666;
+            width: 100%;
+            margin-bottom: 30px;
+            text-align: center;
+          }
+          p{
+            font-size: 12px;
+            color: #999;
+            width: 100%;
+            margin-bottom: 40px;
+            text-align: center;
+          }
+          .btn{
+            width: 220px;
+            height: 40px;
+            background: #54b4fe;
+            color: #fff;
+            line-height: 40px;
+            text-align: center;
+            margin: 0 auto;
+          }
+        }
+    }
+    .choseQYST{
+        overflow: hidden;
+            h3{
+                width: 100%;
+                text-align: center;
+                margin: 22px auto 39px;
+                font-size: 20px;
+                color: #666;
+            }
+            ul{
+                width: 100%;
+                height: 350px;
+                overflow-y: scroll;
+                li{
+                    width: 90%;
+                    height: 85px;
+                    margin: 30px auto;
+                    .radio{
+                        width: 20px;
+                        height: 20px;
+                        float: left;
+                        overflow: hidden;
+                        margin: 34px auto;
+                        border-radius: 50%;
+                        border: 1px solid #54b4fe;
+                        color: #fff;
+                    }
+                    .active{
+                        width: 20px;
+                        height: 20px;
+                        float: left;
+                        overflow: hidden;
+                        margin: 34px auto;
+                        border-radius: 50%;
+                        border: 1px solid #54b4fe;
+                        background: #54b4fe;
+                        color: #fff;
+                    }
+                    .infoShow{
+                        float: left;
+                        width: 90%;
+                        height: 85px;
+                        margin-left: 10px;
+                        background: #f6f6f6;
+                        p{
+                            float: left;
+                            margin-top: 16px;
+                            margin-left: 20px;
+                            font-size: 14px;
+                            .infoTitle{
+                                color: #999;
+                            }
+                            .infoMsg{
+                                color: #666;
+                            }
+                        }
+                    }
+                }
+            }
+            .btnBox{
+                width: 320px;
+                height: 40px;
+                margin: 30px auto 40px;
+                span{
+                    width: 144px;
+                    height: 40px;
+                    line-height: 40px;
+                    text-align: center;
+                    font-size: 14px;
+                    border: 1px solid #eee;
+                    color: #999;
+                    cursor: pointer;
+                    &:hover{
+                        background: #54b4fe;
+                        color: #fff;
+                    }
+                }
+                .btnOne{
+                    float: left;
+                }
+                .btnTwo{
+                    float: right;
+                }
+            }
+    }
+    .addConpany{
+        .modalBox{
+            width: 100%;
+            height: 400px;
+            overflow: hidden;
+            h3{
+                width: 100%;
+                text-align: center;
+                margin: 22px auto 39px;
+                font-size: 20px;
+                color: #666;
+            }
+            .modalMsg{
+                width: 90%;
+                height: 44px;
+                margin: 20px auto;
+                .modalName{
+                    display: inline-block;
+                    width: 80px;
+                    font-size: 14px;
+                    color: #666;
+                }
+                input{
+                    display: inline-block;
+                    width: 400px;
+                    height: 44px;
+                    padding: 0 15px;
+                    font-size: 14px;
+                    background: #f6f6f6;
+                    border: 1px solid #eee;
+                    &::placeholder{
+                        color: #ccc;
+                    }
+                    &:focus{
+                        color: #666;
+                        border: 1px solid #54b4fe;
+                    }
+                }
+            }
+            .errorMsg{
+                width: 100%;
+                text-align: center;
+                color: red;
+                font-size: 12px;
+            }
+            .modalBtn{
+                width: 320px;
+                height: 40px;
+                margin: 30px auto 10px;
+                .btnOne{
+                    float: left;
+                    width: 144px;
+                    height: 38px;
+                    line-height: 38px;
+                    text-align: center;
+                    border: 1px solid #54b4fe;
+                    color: #54b4fe;
+                    cursor: pointer;
+                    &:hover{
+                        background: #54b4fe;
+                        color: #fff;
+                    }
+                }
+                .btnTwo{
+                    float: right;
+                    width: 144px;
+                    height: 38px;
+                    line-height: 38px;
+                    text-align: center;
+                    border: 1px solid #54b4fe;
+                    color: #54b4fe;
+                    cursor: pointer;
+                    &:hover{
+                        background: #54b4fe;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}

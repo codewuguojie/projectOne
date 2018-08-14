@@ -1,0 +1,353 @@
+
+
+.myfinance-box{
+    width: 100%;
+    background: #fff;
+    position: relative;
+}
+
+.myfinance-box  .myfinance{
+    width: 1200px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+.myfinance-box  .myfinance ul{
+    overflow: hidden;
+}
+.myfinance-box .myfinance h2{
+    width: 95%;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.myfinance-box .myfinance .one{
+    width: 100%;
+    list-style: none;
+    margin: 0 0 0 140px;
+}
+.myfinance-box .myfinance .one li{
+    width: 26%;
+    height: 90px;
+    margin: 0 30px;
+}
+.myfinance-box .myfinance .one li p{
+    width: 100%;
+    text-align: left;
+    padding: 10px 0 0 0;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+}
+.myfinance-box .myfinance .one li span{
+    display: block;
+    width: 100%;
+}
+.myfinance-box .myfinance .one li span .money{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 800;
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+}
+.myfinance-box .myfinance .one li span .danwei{
+    font-weight: 300;
+    font-size: 12px;
+    display: inline-block;
+    width: 30%;
+    text-align: left;
+    color: #fff;
+}
+.myfinance-box .myfinance .btn{
+    clear: both;
+    width: 1200px;
+}
+.myfinance-box .myfinance .btn .shenzi{
+    width: 150px;
+    height: 40px;
+    border: 0;
+    color: #fff;
+    margin:70px 30px 40px 420px;
+    font-size: 18px;
+    border: 1px solid #fff;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+.myfinance-box .myfinance .btn .huankuan{
+    width: 150px;
+    height: 40px;
+    border: 0;
+    color: #fff;
+    margin:70px 30px 40px;
+    font-size: 18px;
+    line-height: 40px;
+    border: 1px solid #fff;
+    text-align: center;
+    cursor: pointer;
+}
+.myfinance-box .myfinance-empty .type{
+    clear: both;
+    width: 95%;
+    margin: 20px 0 20px 30px;
+    overflow: hidden;
+    font-size: 14px;
+    background: #fff;
+}
+.myfinance-box .myfinance-empty .type span{
+    padding-right: 30px;
+}
+.myfinance-box .myfinance-empty .type select{
+    height: 30px;
+    width: 150px;
+    padding-left: 20px;
+}
+.myfinance-box .myfinance-empty .type select option{
+    display: inline-block;
+    height: 30px;
+}
+.myfinance-box .myfinance-empty .type .find{
+    width: 100px;
+    height: 30px;
+    margin: 0 20px;
+    border: 0;
+    background: #fff;
+    color: #54b4fe;
+    border: 1px solid #54b4fe;
+}
+.myfinance-box .myfinance-empty .type .find:hover{
+    background: #54b4fe;
+    color: #fff;
+    border: 0;
+}
+.myfinance-box .myfinance-empty.list{
+    width: 1200px;
+    margin: 0 auto 130px;
+}
+.myfinance-box .myfinance-empty .list table{
+    width: 1139px;
+    padding: 20px 0 20px 30px;
+}
+.myfinance-box .myfinance-empty .list table th{
+    background: #f6f6f6;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: normal;
+}
+.myfinance-box .myfinance-empty .list table tr:nth-child(odd){
+    background: #fbfdff;
+}
+.myfinance-box .myfinance-empty .list table td{
+    padding: 10px;
+    text-align: center;
+    mso-cellspacing: 0;
+    font-size: 12px;
+}
+.myfinance-box .myfinance-empty .list table td a{
+    color: #54b4fe;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.myfinance-box .myfinance-empty .list table td .tiaozhuan{
+    color: #ccc;
+}
+/*还款弹窗*/
+.myfinance-box .hezi{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #000;
+    opacity: 0.6;
+    float: left;
+}
+.myfinance-box .background{
+    width: 100%;
+    position: relative;
+    position: absolute;
+    float: left;
+    top: 0;
+    left: 0;
+
+}
+.myfinance-box .repay{
+    position: absolute;
+    width: 450px;
+    height: 400px;
+    background: #fff;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.myfinance-box .repay p:nth-child(1){
+    height: 40px;
+    width: 410px;
+    line-height: 40px;
+    padding-left: 40px;
+    background: #f6f6f6;
+    color: #999;
+}
+.myfinance-box .repay p:nth-child(2){
+    margin-top: 40px;
+    padding-left: 30px;
+    color: #666666;
+}
+.myfinance-box .repay .msg{
+    padding-left: 30px;
+    margin: 20px 0;
+}
+.myfinance-box .repay .msg span:nth-child(1){
+    padding-right: 15px;
+    color: #999;
+}
+.myfinance-box .repay .msg span:nth-child(2){
+    color: #666;
+}
+.myfinance-box .repay button{
+    display: block;
+    width: 240px;
+    height: 45px;
+    border: 0;
+    background: #54b4fe;
+    color: #fff;
+    margin: 50px auto 0;
+}
+.myfinance-box .financeDetial-box{
+    display: none;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 130px;
+}
+.myfinance-box .financeDetial-box .my{
+    width: 1200PX;
+    margin: 0 auto;
+}
+.myfinance-box.financeDetial-box .my h3{
+    width: 1200px;
+    text-align: center;
+    padding: 20px 0 30px 0;
+    padding: 10px 0 10px 30px;
+    color: #54b4fe;
+    border-bottom: 1px solid #f5f5f5;
+}
+.myfinance-box.financeDetial-box .my .top{
+    width: 1200px;
+    box-shadow: 0 0 5px;
+    overflow: hidden;
+}
+.myfinance-box .financeDetial-box .my .top h4{
+    width: 1200px;
+    border-bottom: 1px solid #f5f5f5;
+    padding: 20px 0 20px 30px;
+    color: #54b4fe;
+}
+.myonline-box .financeDetial-box .my .top .neirong{
+    background: #ccc;
+}
+.myfinance-box .financeDetial-box .my .top .neirong ul{
+    list-style: none;
+    padding: 10px 0 0 30px;
+}
+.myfinance-box .financeDetial-box .my .top .neirong ul li{
+    padding: 10px 90px;
+}
+.myfinance-box .financeDetial-box .my .top .neirong ul li:nth-child(5){
+    padding: 10px 25px;
+}
+.myfinance-box .financeDetial-box .my .top .neirong ul li:nth-child(6) {
+    padding: 10px 220px;
+}
+.myfinance-box .financeDetial-box .my .top .neirong ul li:nth-child(8) {
+    padding: 10px 65px;
+}
+.myfinance-box .financeDetial-box .my .top .neirong ul li a{
+    color: blue;
+}
+
+.myfinance-box .financeDetial-box .my .top .neirong ul li span{
+    color: red;
+    padding-right: 5px;
+}
+.myfinance-box .financeDetial-box .my .top .neirong ul li p{
+    padding: 5px 0;
+}
+.myfinance-box .financeDetial-box .my .bottom{
+    width: 1200px;
+    box-shadow: 0 0 5px #54b4fe;
+    margin-top: 20px;
+    margin-bottom: 130px;
+}
+.myfinance-box .financeDetial-box .my .bottom .zhuangtai{
+    width: 1170px;
+    border-bottom: 1px solid #f5f5f5;
+    padding: 20px 0 20px 30px;
+    color: #54b4fe;
+}
+.myfinance-box .financeDetial-box .my .bottom .leixing{
+    width: 100%;
+    padding-left: 30px;
+    margin: 10px 0;
+}
+.myfinance-box .financeDetial-box .my .bottom .jine{
+    width: 100%;
+}
+.myfinance-box .financeDetial-box .my .bottom .jine ul{
+    list-style: none;
+}
+.myfinance-box .financeDetial-box .my .bottom .jine ul li{
+    padding: 10px 30px;
+}
+.myfinance-box .financeDetial-box .my .bottom table{
+    width: 1100px;
+    padding: 20px 0 20px 30px;
+}
+.myfinance-box .financeDetial-box .my .bottom table th{
+    background: #f6f6f6;
+    padding: 10px;
+}
+.myfinance-box .financeDetial-box .my .bottom table td{
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #f6f6f6;
+    mso-cellspacing: 0;
+}
+.myfinance-box .financeDetial-box .my .fanhui{
+    display: block;
+    width: 150px;
+    height: 40px;
+    background: #54b4fe;
+    color: #fff;
+    border: 0;
+    margin: 0 auto;
+}
+.myfinance-box .footer{
+    width: 100%;
+    height: 80px;
+    background: #333;
+    color: #6a6a6a;
+    position: fixed;
+    bottom: 0;
+}
+.myfinance-box .footer .foot{
+    width: 1200px;
+    margin: 0 auto;
+    line-height: 85px;
+    font-size: 12px;
+}
+.myfinance-box .footer .foot ul{
+    padding: 0 200px;
+}
+.myfinance-box .footer .foot ul li{
+    list-style: none;
+    padding: 0 10px;
+}
+
+

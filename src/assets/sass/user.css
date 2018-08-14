@@ -1,0 +1,581 @@
+.user {
+  width: 100%;
+  background: #f9f9f9; }
+  .user .content {
+    width: 100%; }
+    .user .content .position {
+      width: 1200px;
+      margin: 15px auto; }
+      .user .content .position img {
+        margin-right: 5px; }
+      .user .content .position span {
+        font-size: 12px;
+        color: #bbb; }
+    .user .content .user-set {
+      width: 1200px;
+      margin: 0 auto;
+      overflow: hidden; }
+      .user .content .user-set .left {
+        float: left;
+        width: 224px;
+        height: 480px;
+        background: #fff;
+        border-radius: 10px; }
+        .user .content .user-set .left ul {
+          width: 100%;
+          height: 100%; }
+          .user .content .user-set .left ul li {
+            width: 100%;
+            height: 80px;
+            overflow: hidden;
+            cursor: pointer; }
+            .user .content .user-set .left ul li p {
+              width: 200px;
+              height: 30px;
+              padding-left: 22px;
+              text-align: left;
+              line-height: 30px;
+              margin: 25px auto;
+              border-left: 2px solid #fff;
+              font-size: 16px;
+              color: #999; }
+              .user .content .user-set .left ul li p i {
+                color: #bbb;
+                margin-right: 20px; }
+                .user .content .user-set .left ul li p i::before {
+                  color: #bbb; }
+            .user .content .user-set .left ul li .active {
+              width: 200px;
+              height: 30px;
+              padding-left: 22px;
+              text-align: left;
+              line-height: 30px;
+              margin: 25px auto;
+              border-left: 2px solid #54b4fe;
+              font-size: 16px;
+              color: #54b4fe; }
+              .user .content .user-set .left ul li .active i {
+                color: #54b4fe;
+                margin-right: 20px; }
+                .user .content .user-set .left ul li .active i::before {
+                  color: #55b4fe; }
+      .user .content .user-set .right {
+        width: 956px;
+        float: right;
+        background: #fff;
+        margin-bottom: 40px;
+        border-radius: 10px; }
+        .user .content .user-set .right .r-top {
+          width: 100%;
+          height: 60px;
+          border-bottom: 1px solid #dcdfe6; }
+          .user .content .user-set .right .r-top p {
+            height: 58px;
+            line-height: 58px;
+            float: left;
+            margin: 0 0 0 3%;
+            cursor: pointer;
+            font-size: 18px;
+            color: #999;
+            border-bottom: 2px solid #fff; }
+          .user .content .user-set .right .r-top .tap {
+            height: 58px;
+            line-height: 58px;
+            float: left;
+            margin: 0 0 0 3%;
+            cursor: pointer;
+            font-size: 18px;
+            color: #666;
+            border-bottom: 2px solid #54b4fe; }
+        .user .content .user-set .right .r-bottom {
+          width: 100%; }
+          .user .content .user-set .right .r-bottom .msg {
+            width: 94%;
+            height: 60px;
+            margin: 10px auto; }
+            .user .content .user-set .right .r-bottom .msg .name {
+              float: left;
+              line-height: 60px;
+              width: 130px;
+              font-size: 16px;
+              color: #999; }
+            .user .content .user-set .right .r-bottom .msg .cont {
+              line-height: 60px;
+              float: left;
+              width: 500px;
+              font-size: 16px;
+              color: #999; }
+            .user .content .user-set .right .r-bottom .msg input {
+              width: 500px;
+              height: 60px;
+              border: 0;
+              background: #fff;
+              font-size: 16px;
+              float: left; }
+              .user .content .user-set .right .r-bottom .msg input::placeholder {
+                color: #999; }
+              .user .content .user-set .right .r-bottom .msg input:focus {
+                color: #666; }
+          .user .content .user-set .right .r-bottom .errorMsg {
+            width: 100%;
+            text-align: center;
+            color: red;
+            font-size: 12px; }
+          .user .content .user-set .right .r-bottom .save {
+            width: 188px;
+            height: 40px;
+            background: #fff;
+            margin: 20px auto 40px;
+            line-height: 40px;
+            text-align: center;
+            border: 1px solid #54b4fe;
+            color: #54b4fe;
+            cursor: pointer; }
+            .user .content .user-set .right .r-bottom .save:hover {
+              background: #54b4fe;
+              color: #fff; }
+          .user .content .user-set .right .r-bottom .compile {
+            width: 188px;
+            height: 40px;
+            background: #fff;
+            line-height: 40px;
+            text-align: center;
+            margin: 20px auto 40px;
+            cursor: pointer;
+            border: 1px solid #54b4fe;
+            color: #54b4fe; }
+            .user .content .user-set .right .r-bottom .compile:hover {
+              background: #54b4fe;
+              color: #fff; }
+          .user .content .user-set .right .r-bottom .add {
+            width: 112px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            background: #54b4fe;
+            color: #fff;
+            cursor: pointer;
+            margin: 30px 0 23px 3%; }
+          .user .content .user-set .right .r-bottom .staff {
+            width: 94%;
+            margin: 0 auto; }
+            .user .content .user-set .right .r-bottom .staff li {
+              width: 96%;
+              height: 86px;
+              margin: 20px auto;
+              padding: 20px 20px;
+              background: #f9f9f9; }
+              .user .content .user-set .right .r-bottom .staff li div {
+                float: left; }
+              .user .content .user-set .right .r-bottom .staff li .s-left {
+                width: 29%;
+                height: 100%; }
+                .user .content .user-set .right .r-bottom .staff li .s-left p {
+                  padding: 10px 0;
+                  font-size: 14px; }
+              .user .content .user-set .right .r-bottom .staff li .s-middle {
+                width: 45%;
+                height: 100%; }
+                .user .content .user-set .right .r-bottom .staff li .s-middle p {
+                  padding: 10px 0;
+                  font-size: 14px; }
+              .user .content .user-set .right .r-bottom .staff li .s-right {
+                width: 24%;
+                height: 100%; }
+                .user .content .user-set .right .r-bottom .staff li .s-right p {
+                  padding: 10px 0;
+                  font-size: 14px; }
+        .user .content .user-set .right .safe {
+          width: 956px;
+          height: 480px;
+          overflow: hidden; }
+          .user .content .user-set .right .safe .bound {
+            height: 46px;
+            width: 90%;
+            line-height: 46px;
+            margin: 20px auto; }
+            .user .content .user-set .right .safe .bound span {
+              display: inline-block;
+              width: 100px; }
+            .user .content .user-set .right .safe .bound input {
+              display: inline-block;
+              width: 580px;
+              height: 44px;
+              padding: 0 10px;
+              border: 1px solid #eee;
+              background: #f6f6f6;
+              font-size: 14px; }
+              .user .content .user-set .right .safe .bound input::placeholder {
+                color: #ccc; }
+              .user .content .user-set .right .safe .bound input:focus {
+                color: #666;
+                border: 1px solid #54b4fe;
+                background: #fff; }
+            .user .content .user-set .right .safe .bound .boundGetimgCode {
+              display: inline-block;
+              width: 144px;
+              height: 44px;
+              line-height: 44px;
+              text-align: center;
+              border: 1px solid #eee;
+              font-size: 14px;
+              color: #ccc;
+              background: #f6f6f6; }
+          .user .content .user-set .right .safe .bound:nth-child(1) {
+            margin-top: 40px; }
+          .user .content .user-set .right .safe .bound:nth-child(2) input {
+            width: 410px;
+            margin-right: 20px; }
+          .user .content .user-set .right .safe .errorMsg {
+            width: 100%;
+            text-align: center;
+            color: red;
+            font-size: 12px; }
+          .user .content .user-set .right .safe .bound-btn {
+            width: 188px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            margin: 40px auto 0;
+            border: 1px solid #54b4fe;
+            color: #54b4fe;
+            cursor: pointer; }
+            .user .content .user-set .right .safe .bound-btn:hover {
+              background: #54b4fe;
+              color: #fff; }
+        .user .content .user-set .right .password {
+          width: 956px;
+          height: 480px;
+          overflow: hidden; }
+          .user .content .user-set .right .password .bound {
+            height: 46px;
+            width: 90%;
+            line-height: 46px;
+            margin: 20px auto; }
+            .user .content .user-set .right .password .bound span {
+              display: inline-block;
+              width: 120px; }
+            .user .content .user-set .right .password .bound input {
+              display: inline-block;
+              width: 580px;
+              height: 44px;
+              padding: 0 10px;
+              border: 1px solid #eee;
+              background: #f6f6f6;
+              font-size: 14px; }
+              .user .content .user-set .right .password .bound input::placeholder {
+                color: #ccc; }
+              .user .content .user-set .right .password .bound input:focus {
+                color: #666;
+                border: 1px solid #54b4fe;
+                background: #fff; }
+            .user .content .user-set .right .password .bound .boundGetimgCode {
+              display: inline-block;
+              width: 144px;
+              height: 44px;
+              line-height: 44px;
+              text-align: center;
+              border: 1px solid #eee;
+              font-size: 14px;
+              color: #ccc;
+              background: #f6f6f6; }
+          .user .content .user-set .right .password .bound:nth-child(1) {
+            margin-top: 40px; }
+          .user .content .user-set .right .password .errorMsg {
+            width: 100%;
+            text-align: center;
+            color: red;
+            font-size: 12px; }
+          .user .content .user-set .right .password .bound-btn {
+            width: 188px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            margin: 40px auto 0;
+            border: 1px solid #54b4fe;
+            color: #54b4fe;
+            cursor: pointer; }
+            .user .content .user-set .right .password .bound-btn:hover {
+              background: #54b4fe;
+              color: #fff; }
+        .user .content .user-set .right .signature {
+          width: 956px;
+          height: 480px;
+          overflow: hidden; }
+          .user .content .user-set .right .signature .signatureBox {
+            width: 188px;
+            height: 190px;
+            margin: 145px auto; }
+            .user .content .user-set .right .signature .signatureBox img {
+              display: block;
+              margin: 0 auto 15px; }
+            .user .content .user-set .right .signature .signatureBox p {
+              width: 100%;
+              text-align: center;
+              font-size: 14px;
+              margin-bottom: 40px;
+              color: #bbb; }
+            .user .content .user-set .right .signature .signatureBox .signatureBtn {
+              width: 188px;
+              height: 40px;
+              line-height: 40px;
+              text-align: center;
+              background: #54b4fe;
+              color: #fff;
+              font-size: 14px;
+              cursor: pointer; }
+        .user .content .user-set .right .bank {
+          width: 956px;
+          height: 480px;
+          overflow: hidden; }
+          .user .content .user-set .right .bank .signatureBox {
+            width: 188px;
+            height: 190px;
+            margin: 145px auto; }
+            .user .content .user-set .right .bank .signatureBox img {
+              display: block;
+              margin: 0 auto 15px; }
+            .user .content .user-set .right .bank .signatureBox p {
+              width: 100%;
+              text-align: center;
+              font-size: 14px;
+              margin-bottom: 40px;
+              color: #bbb; }
+            .user .content .user-set .right .bank .signatureBox .signatureBtn {
+              width: 188px;
+              height: 40px;
+              line-height: 40px;
+              text-align: center;
+              background: #54b4fe;
+              color: #fff;
+              font-size: 14px;
+              cursor: pointer; }
+        .user .content .user-set .right .entityAccount {
+          width: 956px;
+          min-height: 480px; }
+          .user .content .user-set .right .entityAccount .add {
+            width: 112px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            background: #54b4fe;
+            color: #fff;
+            cursor: pointer;
+            font-size: 14px;
+            margin: 40px 0 20px 40px; }
+          .user .content .user-set .right .entityAccount .zhanghu {
+            width: 876px;
+            margin: 0 auto 10px; }
+            .user .content .user-set .right .entityAccount .zhanghu li {
+              width: 96%;
+              height: 54px;
+              padding: 0 2%;
+              line-height: 54px;
+              background: #f9f9f9; }
+              .user .content .user-set .right .entityAccount .zhanghu li div {
+                float: left;
+                margin-right: 50px;
+                font-size: 14px; }
+                .user .content .user-set .right .entityAccount .zhanghu li div .acountName {
+                  color: #999; }
+                .user .content .user-set .right .entityAccount .zhanghu li div .acountCont {
+                  color: #666; }
+  .user .addConpany .modalBox {
+    width: 100%;
+    height: 400px;
+    overflow: hidden; }
+    .user .addConpany .modalBox h3 {
+      width: 100%;
+      text-align: center;
+      margin: 22px auto 39px;
+      font-size: 20px;
+      color: #666; }
+    .user .addConpany .modalBox .modalMsg {
+      width: 90%;
+      height: 44px;
+      margin: 20px auto; }
+      .user .addConpany .modalBox .modalMsg .modalName {
+        display: inline-block;
+        width: 80px;
+        font-size: 14px;
+        color: #666; }
+      .user .addConpany .modalBox .modalMsg input {
+        display: inline-block;
+        width: 400px;
+        height: 44px;
+        padding: 0 15px;
+        font-size: 14px;
+        background: #f6f6f6;
+        border: 1px solid #eee; }
+        .user .addConpany .modalBox .modalMsg input::placeholder {
+          color: #ccc; }
+        .user .addConpany .modalBox .modalMsg input:focus {
+          color: #666;
+          border: 1px solid #54b4fe; }
+    .user .addConpany .modalBox .errorMsg {
+      width: 100%;
+      text-align: center;
+      color: red;
+      font-size: 12px; }
+    .user .addConpany .modalBox .modalBtn {
+      width: 320px;
+      height: 40px;
+      margin: 30px auto 10px; }
+      .user .addConpany .modalBox .modalBtn .btnOne {
+        float: left;
+        width: 144px;
+        height: 38px;
+        line-height: 38px;
+        text-align: center;
+        border: 1px solid #54b4fe;
+        color: #54b4fe;
+        cursor: pointer; }
+        .user .addConpany .modalBox .modalBtn .btnOne:hover {
+          background: #54b4fe;
+          color: #fff; }
+      .user .addConpany .modalBox .modalBtn .btnTwo {
+        float: right;
+        width: 144px;
+        height: 38px;
+        line-height: 38px;
+        text-align: center;
+        border: 1px solid #54b4fe;
+        color: #54b4fe;
+        cursor: pointer; }
+        .user .addConpany .modalBox .modalBtn .btnTwo:hover {
+          background: #54b4fe;
+          color: #fff; }
+  .user .addPeople .modalBox {
+    width: 100%;
+    height: 580px;
+    overflow: hidden; }
+    .user .addPeople .modalBox h3 {
+      width: 100%;
+      text-align: center;
+      margin: 22px auto 39px;
+      font-size: 20px;
+      color: #666; }
+    .user .addPeople .modalBox .modalMsg {
+      width: 90%;
+      height: 44px;
+      margin: 20px auto; }
+      .user .addPeople .modalBox .modalMsg .modalName {
+        display: inline-block;
+        width: 80px;
+        font-size: 14px;
+        color: #666; }
+      .user .addPeople .modalBox .modalMsg input {
+        display: inline-block;
+        width: 400px;
+        height: 44px;
+        padding: 0 15px;
+        font-size: 14px;
+        background: #f6f6f6;
+        border: 1px solid #eee; }
+        .user .addPeople .modalBox .modalMsg input::placeholder {
+          color: #ccc; }
+        .user .addPeople .modalBox .modalMsg input:focus {
+          color: #666;
+          border: 1px solid #54b4fe; }
+    .user .addPeople .modalBox .errorMsg {
+      width: 100%;
+      text-align: center;
+      color: red;
+      font-size: 12px; }
+    .user .addPeople .modalBox .btnOne {
+      display: block;
+      width: 144px;
+      height: 38px;
+      margin: 30px auto;
+      line-height: 38px;
+      text-align: center;
+      border: 1px solid #54b4fe;
+      color: #54b4fe;
+      cursor: pointer; }
+      .user .addPeople .modalBox .btnOne:hover {
+        background: #54b4fe;
+        color: #fff; }
+  .user .create .createBox {
+    width: 100%;
+    height: 500px;
+    overflow: hidden; }
+    .user .create .createBox h3 {
+      width: 100%;
+      text-align: center;
+      margin: 22px auto 39px;
+      font-size: 20px;
+      color: #666; }
+    .user .create .createBox .introduce {
+      width: 100%;
+      text-align: center;
+      font-size: 14px;
+      color: #999; }
+      .user .create .createBox .introduce span {
+        color: #54b4fe; }
+    .user .create .createBox .input {
+      width: 560px;
+      height: 46px;
+      margin: 29px auto 30px; }
+      .user .create .createBox .input input {
+        display: inline-block;
+        width: 371px;
+        height: 44px;
+        padding: 0 0 0 15px;
+        margin-right: 20px;
+        font-size: 14px;
+        background: #eee;
+        border: 1px solid #eee; }
+        .user .create .createBox .input input::placeholder {
+          color: #ccc; }
+      .user .create .createBox .input span {
+        display: inline-block;
+        width: 144px;
+        height: 44px;
+        line-height: 44px;
+        text-align: center;
+        border: 1px solid #54b4fe;
+        color: #54b4fe;
+        cursor: pointer; }
+    .user .create .createBox .zhang {
+      width: 560px;
+      height: 164px;
+      margin: 0 auto 10px;
+      border: 1px solid #eee; }
+      .user .create .createBox .zhang img {
+        display: block;
+        width: 114px;
+        height: 114px;
+        margin: 14px auto 10px; }
+      .user .create .createBox .zhang p {
+        width: 100%;
+        margin-bottom: 10px;
+        text-align: center;
+        font-size: 12px;
+        color: #999; }
+    .user .create .createBox .errorMsg {
+      width: 100%;
+      text-align: center;
+      color: red;
+      font-size: 12px; }
+    .user .create .createBox .btnBox {
+      width: 320px;
+      height: 40px;
+      margin: 30px auto 40px; }
+      .user .create .createBox .btnBox span {
+        width: 144px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        font-size: 14px;
+        border: 1px solid #eee;
+        color: #999;
+        cursor: pointer; }
+        .user .create .createBox .btnBox span:hover {
+          background: #54b4fe;
+          color: #fff; }
+      .user .create .createBox .btnBox .btnOne {
+        float: left; }
+      .user .create .createBox .btnBox .btnTwo {
+        float: right; }
+
+/*# sourceMappingURL=user.css.map */

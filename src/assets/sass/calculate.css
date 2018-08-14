@@ -1,0 +1,167 @@
+.calculate {
+  width: 100%;
+  background: #f9f9f9; }
+  .calculate .content {
+    width: 100%; }
+    .calculate .content .position {
+      width: 1200px;
+      margin: 15px auto; }
+      .calculate .content .position img {
+        margin-right: 5px; }
+      .calculate .content .position span {
+        font-size: 12px;
+        color: #bbb; }
+    .calculate .content .process {
+      width: 1200px;
+      background: #fff;
+      margin: 0 auto;
+      border-radius: 10px 10px 0 0;
+      border-bottom: 1px solid #dcdfe6;
+      overflow: hidden; }
+      .calculate .content .process .L-top {
+        width: 95%;
+        height: 70px;
+        line-height: 70px;
+        margin-left: 5%; }
+        .calculate .content .process .L-top img {
+          float: left;
+          width: 22px;
+          height: 22px;
+          margin-top: 24px;
+          margin-right: 10px; }
+        .calculate .content .process .L-top span {
+          float: left;
+          font-size: 20px;
+          color: #666; }
+    .calculate .content .calculateDetail {
+      width: 1200px;
+      margin: 0 auto;
+      background: #fff;
+      overflow: hidden; }
+      .calculate .content .calculateDetail .calculateDetailTop {
+        width: 90%;
+        margin: 10px auto;
+        border-bottom: 1px solid #dcdfe6; }
+        .calculate .content .calculateDetail .calculateDetailTop .calculateMsg {
+          width: 100%;
+          margin-bottom: 15px;
+          overflow: hidden; }
+          .calculate .content .calculateDetail .calculateDetailTop .calculateMsg .left {
+            float: left;
+            margin-right: 120px; }
+            .calculate .content .calculateDetail .calculateDetailTop .calculateMsg .left span {
+              display: inline-block;
+              width: 150px;
+              height: 40px;
+              font-size: 14px;
+              color: #666;
+              line-height: 40px; }
+            .calculate .content .calculateDetail .calculateDetailTop .calculateMsg .left .block {
+              display: inline-block; }
+            .calculate .content .calculateDetail .calculateDetailTop .calculateMsg .left input {
+              display: inline-block;
+              width: 200px;
+              height: 40px;
+              padding: 0 10px;
+              border: 1px solid #dcdfe6;
+              border-radius: 4px; }
+          .calculate .content .calculateDetail .calculateDetailTop .calculateMsg .right {
+            float: left; }
+            .calculate .content .calculateDetail .calculateDetailTop .calculateMsg .right .calculateBtn {
+              width: 120px;
+              height: 40px;
+              line-height: 40px;
+              background: #54b4fe;
+              color: #fff;
+              text-align: center;
+              cursor: pointer; }
+            .calculate .content .calculateDetail .calculateDetailTop .calculateMsg .right img {
+              vertical-align: text-top;
+              margin-right: 10px; }
+            .calculate .content .calculateDetail .calculateDetailTop .calculateMsg .right span {
+              display: inline-block;
+              width: 150px;
+              height: 40px;
+              font-size: 14px;
+              color: #666;
+              line-height: 40px; }
+            .calculate .content .calculateDetail .calculateDetailTop .calculateMsg .right input {
+              display: inline-block;
+              width: 200px;
+              height: 40px;
+              padding: 0 10px;
+              border: 1px solid #dcdfe6;
+              border-radius: 4px; }
+      .calculate .content .calculateDetail .calculateDetailBottom {
+        width: 90%;
+        margin: 30px auto;
+        border-bottom: 1px solid #dcdfe6; }
+        .calculate .content .calculateDetail .calculateDetailBottom .calculateMsg {
+          width: 100%;
+          margin-bottom: 15px;
+          overflow: hidden; }
+          .calculate .content .calculateDetail .calculateDetailBottom .calculateMsg .left {
+            float: left;
+            margin-right: 122px; }
+            .calculate .content .calculateDetail .calculateDetailBottom .calculateMsg .left span {
+              display: inline-block;
+              width: 150px;
+              height: 40px;
+              font-size: 14px;
+              color: #666;
+              line-height: 40px; }
+            .calculate .content .calculateDetail .calculateDetailBottom .calculateMsg .left .block {
+              display: inline-block;
+              margin-right: 135px; }
+            .calculate .content .calculateDetail .calculateDetailBottom .calculateMsg .left input {
+              display: inline-block;
+              width: 200px;
+              height: 40px;
+              padding: 0 10px;
+              border: 1px solid #dcdfe6;
+              border-radius: 4px; }
+          .calculate .content .calculateDetail .calculateDetailBottom .calculateMsg .right {
+            float: left; }
+            .calculate .content .calculateDetail .calculateDetailBottom .calculateMsg .right .calculateBtn {
+              width: 160px;
+              height: 40px;
+              line-height: 40px;
+              background: #54b4fe;
+              color: #fff;
+              text-align: center;
+              cursor: pointer; }
+            .calculate .content .calculateDetail .calculateDetailBottom .calculateMsg .right img {
+              vertical-align: text-top;
+              margin-right: 10px; }
+            .calculate .content .calculateDetail .calculateDetailBottom .calculateMsg .right span {
+              display: inline-block;
+              width: 150px;
+              height: 40px;
+              font-size: 14px;
+              color: #666;
+              line-height: 40px; }
+            .calculate .content .calculateDetail .calculateDetailBottom .calculateMsg .right input {
+              display: inline-block;
+              width: 200px;
+              height: 40px;
+              padding: 0 10px;
+              border: 1px solid #dcdfe6;
+              border-radius: 4px; }
+  .calculate .side-box {
+    width: 100px;
+    height: 100px;
+    background: #54b4fe; }
+  .calculate .side-leave {
+    margin-left: 0; }
+  .calculate .side-leave-active {
+    transition: all 3s; }
+  .calculate .side-leave-to {
+    margin-left: 200px; }
+  .calculate .side-enter {
+    margin-left: 200px; }
+  .calculate .side-enter-active {
+    transition: all 3s; }
+  .calculate .side-enter-to {
+    margin-left: 0; }
+
+/*# sourceMappingURL=calculate.css.map */

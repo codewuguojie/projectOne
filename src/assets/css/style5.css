@@ -1,0 +1,107 @@
+/*my页面样式*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+html{
+    font-family: 'Arial', 'MS Trebuchet', sans-serif;
+    background: #fbfdff;
+    color: #bbb;
+}
+/*首页第一部分 */
+.my-box{
+    width: 100%;
+    background: #fbfdff;
+}
+
+
+.my-box .my{
+    width: 1080px;
+    height:1016px;
+    margin: 0 auto 130px;
+    margin-top: 60px;
+}
+.my-box .my h3{
+    width: 1080px;
+    text-align: center;
+    padding: 20px 0 30px 0;
+    /*padding: 10px 0 10px 30px;
+    color: #54b4fe;
+    border-bottom: 1px solid #f5f5f5;*/
+}
+.my-box .my .top{
+    width: 1080px;
+    box-shadow: 0 0 20px #d4e6f5;
+    overflow: hidden;
+    background: #ffffff;
+}
+.my-box .my .top h4{
+    width: 1080px;/*
+    border-bottom: 1px solid #f5f5f5;*/
+    padding: 20px 0 20px 30px;
+    color: #54b4fe;
+    border-bottom: 1px solid #f5f5f5;
+}
+.my-box .my h4 img{
+    width:17px;
+    margin:0 20px 0 0;
+    vertical-align: text-top;
+}
+
+.my-box .my .top button{
+    display: block;
+    width: 200px;
+    height: 40px;
+    background: #54b4fe;
+    color: #fff;
+    border: 0;
+    font-size: 16px;
+    margin: 50px 0 50px 440px;
+    cursor: pointer;
+}
+.my-box .my .bottom{
+    width: 1080px;
+    box-shadow: 0 0 20px #d4e6f5;
+    margin-bottom: 120px;
+    background: #ffffff;
+    margin-top: 60px;
+}
+.my-box .my .bottom h4{
+    border-bottom: 1px solid #f5f5f5;
+    line-height:60px;
+    color: #54b4fe;
+    padding-left: 30px;
+}
+.my-box .my .bottom table{
+    width: 1080px;
+    padding: 20px 0 20px 30px;
+}
+.my-box .my .bottom table th{
+    background: #f6f6f6;
+    padding: 10px;
+    width: 14%;
+}
+.my-box .my .bottom table td{
+    width: 14%;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #f6f6f6;
+    mso-cellspacing: 0;
+}
+.my-box .my .bottom table td a{
+    color: #54b4fe;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+
+
+

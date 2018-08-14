@@ -1,0 +1,151 @@
+.myHome{
+    width: 100%;
+    .box{
+        width: 100%;
+        .banner{
+            width: 100%;
+            height: 420px;
+            overflow: hidden;
+            background: url("../../assets/image/banner.jpg") no-repeat;
+            background-size: 100% 100%;
+            .content{
+                width: 940px;
+                height: 194px;
+                margin: 90px auto 0;
+                .mcbl{
+                    width: 400px;
+                    height: 60px;
+                    line-height: 60px;
+                    text-align: center;
+                    margin: 0 auto 35px;
+                    font-size: 68px;
+                    color: #fff;
+                    letter-spacing: 18px;
+                }
+                .tips{
+                    width: 100%;
+                    height: 50px;
+                    line-height: 50px;
+                    text-align: center;
+                    margin: 0 auto 30px;
+                    font-size: 48px;
+                    color: #fff;
+                    letter-spacing: 4px;
+                }
+                .descripe{
+                    width: 350px;
+                    height: 23px;
+                    line-height: 23px;
+                    text-align: center;
+                    font-size: 24px;
+                    color: #fff;
+                    margin: 0 auto;
+                }
+            }
+        }
+        .finance{
+            width: 1200px;
+            height: 280px;
+            margin: 0 auto;
+            .f-box{
+                margin-top: 40px;
+                float: left;
+                width: 33.3%;
+                height: 220px;
+                text-align: center;
+                .title{
+                    margin-top: 30px;
+                    font-size: 18px;
+                    color: #fff;
+                }
+                .type{
+                    padding: 0 40px;
+                    margin-top: 10px;
+                    line-height: 20px;
+                    color: #fff;
+                    font-size: 12px;
+                }
+                .btn{
+                    width: 120px;
+                     height: 32px;
+                    line-height: 32px;
+                    text-align: center;
+                    border: 1px solid #fff;
+                    margin: 20px auto 0;
+                    font-size: 14px;
+                    color: #fff;
+                    cursor: pointer;
+                }
+            }
+            .f-box:nth-child(1){
+                background: url("../../assets/image/xmyp.png") no-repeat;
+                background-size: 100% 100%;
+            }
+            .f-box:nth-child(2){
+                background: url("../../assets/image/xmsc.png") no-repeat;
+                background-size: 100% 100%;
+            }
+            .f-box:nth-child(3){
+                background: url("../../assets/image/qt.png") no-repeat;
+                background-size: 100% 100%;
+            }
+        }
+        .question{
+            width: 1200px;
+            margin: 0 auto 60px;
+            background: #fff;
+            border-radius: 10px;
+            padding-bottom: 40px;
+            .top{
+                width: 95%;
+                padding-left: 5%;
+                height: 69px;
+                border-bottom: 1px solid rgba(238, 238, 238, 0.6);
+                line-height: 69px;
+                img{
+                    float: left;
+                    width: 22px;
+                    height: 22px;
+                    margin-top: 23px;
+                    margin-right: 10px;
+                }
+                .someQuestion{
+                    float: left;
+                    font-size: 20px;
+                    color: #666;
+                }
+            }
+            .contQuestion{
+                width: 95%;
+                padding-left: 5%;
+                .q-title{
+                    margin-top: 40px;
+                    overflow: hidden;
+                    img{
+                        float: left;
+                        width: 18px;
+                        height: 18px;
+                        margin: 2px 20px 0 0;
+                    }
+                    .wenti{
+                        float: left;
+                        font-size: 16px;
+                        color: #666;
+                    }
+                }
+                .q-answer{
+                    clear: both;
+                    margin-top: 20px;
+                    span{
+                        font-size: 14px;
+                        color: #999;
+                    }
+                    .q-box-1{
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+    
+}

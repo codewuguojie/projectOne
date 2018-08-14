@@ -1,0 +1,351 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+html{
+    font-family: 'Arial', 'MS Trebuchet', sans-serif;
+    background: #fbfdff;
+    color: #bbb;
+}
+/*header*/
+.finance-box{
+    width: 100%;
+    background: #fbfdff;
+    position: relative;
+}
+
+
+.finance-box .finance{
+    width: 1200px;
+    margin: 0 auto 40px;
+}
+.finance-box .finance h2{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0 20px;
+    font-size: 20px;
+    color: #000;
+}
+.finance-box .finance .up-content{
+    width: 100%;
+    background: #fff;
+    padding-top: 5px;
+    box-shadow: 0 0 5px #d4e6f5;
+}
+.finance-box .finance .tianxie{
+    width: 100%;
+    font-size: 14px;
+    margin-top: 30px;
+}
+.finance-box .finance .tianxie ul{
+    width: 1000px;
+    margin-left: 60px;
+    list-style: none;
+}
+.finance-box .finance .tianxie ul li{
+    width: 100%;
+    padding: 10px 0 10px 14px;
+}
+.finance-box .finance .tianxie ul li:nth-child(1) span{
+    padding: 0 0 0 5px;
+}
+.finance-box .finance .tianxie ul li:nth-child(1) select{
+    width: 190px;
+    height: 40px;
+    margin-left: 124px;
+    border-radius: 0;
+    background: #f6f6f6;
+    border: 1px solid #ccc;
+    color: #666;
+    padding:0 40px;
+}
+.finance-box .finance .tianxie ul li:nth-child(1) select option{
+    font-size: inherit;
+    padding: 10px 0;
+}
+.finance-box .finance .tianxie ul li .box{
+    width: 200px;
+}
+.finance-box .finance .tianxie ul li:nth-child(2) span:nth-child(1){
+    padding: 10px 5px;
+}
+.finance-box .finance .tianxie ul li:nth-child(2) input{
+    width: 325px;
+    height: 40px;
+    margin-left: 96px;
+    text-align: left;
+    border-radius: 0;
+    border: 1px solid #ccc;
+    background: #f6f6f6;
+    padding-left: 40px;
+    margin-right: 10px;
+}
+.finance-box .finance .tianxie ul li:nth-child(3) span:nth-child(1){
+    display: inline-block;
+    padding: 10px 5px;
+}
+
+.finance-box .finance .tianxie ul li:nth-child(3) textarea{
+    width: 835px;
+    height: 40px;
+    margin-left: 121px;
+    resize: none;
+    font-size: 14px;
+    padding-left: 40px;
+    line-height: 40px;
+    margin-top: -36px;
+    margin-left: 203px;
+    margin-bottom: 10px;
+    background: #f6f6f6;
+    border: 1px solid #ccc;
+}
+.finance-box .finance .tianxie ul li:nth-child(4) span{
+    padding: 0 20px;
+}
+.finance-box .finance .tianxie ul li:nth-child(4) textarea{
+    width: 835px;
+    height: 40px;
+    margin-left: 103px;
+    resize: none;
+    font-size: 14px;
+    margin-top: -33px;
+    padding-left: 40px;
+    line-height: 40px;
+    margin-left: 203px;
+    background: #f6f6f6;
+    border: 1px solid #ccc;
+}
+.finance-box .finance .ziliao{
+    width: 1000px;
+    margin: 10px auto;
+    background: #fff;
+}
+.finance-box .finance .ziliao .mingchen{
+    width: 350px;
+    display: inline-block;
+    margin: 10px 0 0 65px;
+    overflow: hidden;
+}
+.finance-box .finance .ziliao .mingchen .top{
+    width: 100%;
+    position: relative;
+}
+.finance-box .finance .ziliao .mingchen .top span:nth-child(1){
+    margin: 20px 10px 0 10px;
+    color: red;
+}
+.finance-box .finance .ziliao .mingchen .top span:nth-child(2){
+    height: 50px;
+    line-height: 50px;
+}
+.finance-box .finance .ziliao .mingchen .top input{
+    width: 40px;
+    height: 40px;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    right: 30px;
+}
+.finance-box .finance .ziliao .mingchen .top img{
+    float: right;
+    width: 40px;
+    height: 40px;
+    margin-right: 30px;
+}
+
+.finance-box .finance .ziliao .mingchen .bottom{
+    clear: both;
+    width: 90%;
+    overflow: hidden;
+    padding-left: 10%;
+}
+.finance-box .finance .ziliao .mingchen .bottom ul{
+    width: 100%;
+    list-style: none;
+}
+.finance-box .finance .ziliao .mingchen .bottom ul li{
+    width: 100%;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.finance-box .finance .ziliao .mingchen .bottom ul li span{
+    padding: 0 10px;
+    display: none;
+    color: red;
+    font-size: 14px;
+}
+.finance-box .finance .ziliao .mingchen .bottom ul li a{
+    display: inline-block;
+    width: 60%;
+    color: #54b4fe;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    font-size: 14px;
+}
+.finance-box .finance .ziliao .mingchen .bottom ul li:hover span{
+    display: inline-block;
+}
+.finance-box .finance .other{
+    width: 1000px;
+    margin: 10px auto;
+    background: #fff;
+}
+/*.datamiddle-box .artical .other p{
+    width: 100%;
+    padding: 30px 0;
+}*/
+.finance-box .finance .other ul{
+    width: 100%;
+    list-style: none;
+    clear: both;
+}
+.finance-box .finance .other ul li{
+    width: 30%;
+    margin: 20px 0;
+    cursor: pointer;
+}
+.finance-box .finance .other ul li span{
+    padding: 0 10px;
+    display: none;
+    color: red;
+}
+.finance-box .finance .other ul li a{
+    display: inline-block;
+    width: 60%;
+    color: #54b4fe;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.finance-box .finance .other ul li:hover span{
+    display: inline-block;
+}
+.finance-box .finance .other .otherup{
+    clear: both;
+    width: 100%;
+    background: #ccc;
+    position: relative;
+}
+.finance-box .finance .other .otherup p{
+    display: inline-block;
+    width: 60%;
+    padding: 30px 0;
+}
+.finance-box .finance .other .otherup input{
+    width: 50px;
+    height: 50px;
+    opacity: 0;
+    position: absolute;
+    top: 15px;
+}
+.finance-box .finance .other .otherup img{
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+}
+.finance-box .finance .other h5{
+    clear: both;
+    font-weight: 400;
+    padding: 20px 0;
+}
+.finance-box .finance .nextstep{
+    display: block;
+    width: 200px;
+    height: 40px;
+    margin: 0 auto;
+    background: #54b4fe;
+    color: #fff;
+    border: 0;
+}
+.finance-box .finance .obtn{
+    cursor: pointer;
+}
+
+.finance-box .tips{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 100px;
+    color: #bbb;
+    font-size: 12px;
+}
+/*提示框*/
+.finance-box .up_hezi{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #000;
+    opacity: 0.6;
+}
+.finance-box .up_background{
+    width: 100%;
+    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.finance-box .repay{
+    position: absolute;
+    width: 450px;
+    height: 400px;
+    background: #fff;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.finance-box .repay img{
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: 50px auto;
+}
+.finance-box .repay p{
+    height: 40px;
+    width: 450px;
+    line-height: 40px;
+    text-align: center;
+    color: #999;
+}
+.finance-box .repay button{
+    display: block;
+    width: 240px;
+    height: 45px;
+    border: 0;
+    background: #54b4fe;
+    color: #fff;
+    margin: 50px auto 0;
+}
+
+.finance-box .footer{
+    width: 100%;
+    height: 80px;
+    background: #333;
+    color: #6a6a6a;
+    margin-top: 100px;
+    position: fixed;
+    bottom: 0;
+}
+.finance-box .footer .foot{
+    width: 1200px;
+    margin: 0 auto;
+    line-height: 85px;
+    font-size: 12px;
+}
+.finance-box .footer .foot ul{
+    padding: 0 200px;
+}
+.finance-box .footer .foot ul li{
+    list-style: none;
+    padding: 0 10px;
+}

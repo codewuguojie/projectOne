@@ -1,0 +1,44 @@
+.factor{
+    width: 100%;
+    background: #f9f9f9;
+    .content {
+        width: 100%;
+        .position {
+            width: 1200px;
+            margin: 15px auto;
+            img {
+                margin-right: 5px;
+            }
+            span {
+                font-size: 12px;
+                color: #bbb;
+            }
+        }
+        .process{
+            width: 1200px;
+            background: #fff;
+            margin: 0 auto 10px;
+            border-radius: 10px;
+            border-bottom: 1px solid rgba(238, 238, 238, 0.6);
+            overflow: hidden;
+            .L-top{
+                width: 95%;
+                height: 70px;
+                line-height: 70px;
+                margin-left: 5%;
+                img{
+                    float: left;
+                    width: 22px;
+                    height: 22px;
+                    margin-top: 24px;
+                    margin-right: 10px;
+                }
+                span{
+                    float: left;
+                    font-size: 20px;
+                    color: #666;
+                }
+            }
+        }
+    }
+}

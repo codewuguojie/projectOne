@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+html{
+    font-family: 'Arial', 'MS Trebuchet', sans-serif;
+    background: #fbfdff;
+    font-size: 16px;
+    color: #bbb;
+}
+/*首页第一部分 */
+.index-box{
+    width: 100%;
+    background: #fff;
+}
+
+.index-box .banner{
+    width: 100%;
+    height: 440px;
+    background: #000d16;
+}
+.index-box .banner .banner_mid{
+    width: 1200px;
+    height: 440px;
+    margin: 0 auto;
+    position: relative;
+}
+.index-box .banner .banner_img{
+    width: 100%;
+    height: 100%;
+}
+.index-box .banner img{
+    display: block;
+}
+.index-box .banner p{
+    position: absolute;
+    color: #fff;
+}
+.index-box .banner p:nth-child(2){
+    top: 150px;
+    left: 20px;
+    letter-spacing: 32px;
+    font-size: 28px;
+
+}
+.index-box .banner p:nth-child(3){
+    top: 200px;
+    left: 20px;
+    font-size: 37px;
+    letter-spacing: 4px;
+}
+.index-box .banner p:nth-child(4){
+    top: 270px;
+    left: 20px;
+    font-size: 23px;
+    font-weight: 100;
+}
+.index-box .banner .shenqing{
+    position: absolute;
+    width: 282px;
+    height: 260px;
+    top: 90px;
+    right: 0;
+    background: #fff;
+    display: block;
+}
+.index-box .banner .buchuxian{
+    position: absolute;
+    width: 282px;
+    height: 260px;
+    top: 90px;
+    right: 0;
+    background: #fff;
+    display: none;
+}
+
+.index-box .banner .shenqing p{
+    color: #54b4fe;
+    width: 100%;
+    text-align: center;
+    margin: 30px 0 10px;
+    font-size: 20px;
+}
+.index-box .banner .shenqing ul{
+    width: 70%;
+    margin: 66px 0 0 42px;
+    list-style: none;
+}
+.index-box .banner .shenqing ul li:nth-child(1){
+    padding-top: 10px;
+}
+.index-box .banner .shenqing ul li{
+    width: 100%;
+    padding: 5px 0;
+    color: #bbbbbb;
+}
+.index-box .banner .shenqing ul li span{
+    font-size: 16px;
+}
+.index-box .banner .shenqing ul li img{
+    display: inline-block;
+    padding: 0 8px 0 0;
+    vertical-align: text-top;
+}
+.index-box .banner .shenqing .ruzhu{
+    border: 0;
+    width: 200px;
+    height: 44px;
+    background: #54b4fe;
+    margin: 27px 0 0 41px;
+    font-size: 16px;
+    color: #fff;
+}
+.index-box .banner .shenqing .ruzhu:hover{
+    cursor: pointer;
+}
+.index-box .artical{
+    width: 1200PX;
+    margin: 0 auto;
+}
+.index-box .artical .news{
+    height: 700px;
+    width: 100%;
+}
+.index-box .artical .news .one,.index-box .artical .news .two{
+    width: 368px;
+    height: 430px;
+    position: relative;
+    margin: 170px 115px 0;
+    text-align: center;
+    background: #fff;
+    box-shadow: 0 0 20px #d4e6f5;
+}
+.index-box .artical .news .left .top {
+    position: absolute;
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    top: -50px;
+    left: 140px;
+}
+.index-box .artical .news .left .top img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.index-box .artical .news .left .bottom{
+    width: 368px;
+    height: 430px;
+    background: #fff;
+}
+.index-box .artical .news .left .bottom:hover{
+    border-bottom: 3px solid #54b4fe;
+}
+.index-box .artical .news .left .bottom:hover .money{
+    background: #54b4fe;
+    color: #fff;
+}
+.index-box .artical .news .left .bottom h3{
+    text-align: center;
+    padding: 84px 0 30px 0;
+    font-size: 18px;
+    color: #666;
+}
+.index-box .artical .news .left .bottom p{
+    width: 270px;
+    text-align: center;
+    line-height: 25px;
+    margin: 0 auto;
+    font-size: 14px;
+    color: #bbb;
+}
+.index-box .artical .news .left .bottom .money{
+    position: absolute;
+    bottom: 40px;
+    left: 83px;
+    border: 1px solid #54b4fe;
+    width: 200px;
+    height: 44px;
+    background: #fff;
+    color: #54b4fe;
+    font-size: 16px;
+}
+.index-box .artical .news .left .bottom .money:hover{
+    cursor: pointer;
+}
+.index-box .articalo{
+    width: 100%;
+    background: #fff;
+}
+.index-box .articalo .problem{
+    width: 1200px;
+    margin: 0 auto 100px;
+    background: #fbfdff;
+}
+
+.index-box .articalo .problem .help-one,.index-box .articalo .problem .help-two,.index-box .articalo .problem .help-three{
+    width: 1000px;
+    margin-left: 100px;
+    overflow: hidden;
+    padding: 20px 0;
+    margin-bottom: 30px;
+}
+.index-box .articalo .problem h2{
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    clear: both;
+    line-height: 80px;
+    background: #fff;
+}
+.index-box .articalo .problem .answer{
+    width: 1200px;
+    border: 1px solid #e4f3ff;
+ }
+.index-box .articalo .problem .msg img{
+    float: left;
+    margin:5px 30px 0 10px;
+    width: 17px;
+    height: 16px;
+}
+.index-box .articalo .problem .msg h4{
+    line-height: 26px;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.index-box .articalo .problem .msg p{
+    line-height: 35px;
+    margin:0 0 0 61px;
+    color: #bbb;
+    font-size: 14px;
+}
+.index-box .articalo .problem .msg .top{
+    margin-bottom: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

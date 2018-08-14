@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+html{
+    font-family: 'Arial', 'MS Trebuchet', sans-serif;
+    background: #fbfdff;
+    color: #bbb;
+}
+/*首页第一部分 */
+.data-box{
+    width: 100%;
+    background: #fbfdff;
+    
+}
+
+.data-box .artical{
+     width: 1200px;
+     margin: 0 auto;
+     padding:100px 0 200px 0;
+ }
+.data-box .artical .pagetitle{
+    width: 100%;
+    margin: 10px auto;
+    padding-bottom: 80px;
+}
+.data-box .artical .pagetitle h2{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.data-box .artical .pagetitle .pageimg{
+    width: 485px;
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+}
+.data-box .artical .pagetitle .pageimg img{
+    position: absolute;
+}
+.data-box .artical .pagetitle .pageimg img:nth-child(1){
+
+}
+.data-box .artical .pagetitle .pageimg img:nth-child(2){
+    top: 20px;
+    left: 75px;
+}
+.data-box .artical .pagetitle .pageimg img:nth-child(3){
+    top: 0;
+    left: 170px;
+}
+.data-box .artical .pagetitle .pageimg img:nth-child(4){
+    top: 20px;
+    left: 315px;
+}
+.data-box .artical .pagetitle .pageimg img:nth-child(5){
+    top: 0;
+    left: 410px;
+}
+.data-box .artical .wenzhang{
+    overflow: hidden;
+    width: 900px;
+    margin: 0 auto 130px;
+    font-size: 18px;
+    box-shadow: 0 0 7px #54b4fe;
+    padding: 0 50px;
+    background: #fff;
+}
+.data-box .artical .wenzhang button{
+    width: 340px;
+    height: 50px;
+    border: 0;
+    font-size: 18px;
+    color: #fff;
+    background: #54b4fe;
+    display: block;
+    margin: 60px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

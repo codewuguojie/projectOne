@@ -1,0 +1,708 @@
+.user{
+    width: 100%;
+    background: #f9f9f9;
+    .content {
+        width: 100%;
+        .position {
+            width: 1200px;
+            margin: 15px auto;
+            img {
+                margin-right: 5px;
+            }
+            span {
+                font-size: 12px;
+                color: #bbb;
+            }
+        }
+        .user-set{
+            width: 1200px;
+            margin: 0 auto;
+            overflow: hidden;
+            .left{
+                float: left;
+                width: 224px;
+                height: 480px;
+                background: #fff;
+                border-radius: 10px;
+                ul{
+                    width: 100%;
+                    height: 100%;
+                    li{
+                        width: 100%;
+                        height: 80px;
+                        overflow: hidden;
+                        cursor: pointer;
+                        p{
+                            width: 200px;
+                            height: 30px;
+                            padding-left: 22px;
+                            text-align: left;
+                            line-height: 30px;
+                            margin: 25px auto;
+                            border-left: 2px solid #fff;
+                            font-size: 16px;
+                            color: #999;
+                            i{
+                                color: #bbb;
+                                margin-right: 20px;
+                                &::before{
+                                    color: #bbb;
+                                }
+                            }
+                        }
+                        .active{
+                            width: 200px;
+                            height: 30px;
+                            padding-left: 22px;
+                            text-align: left;
+                            line-height: 30px;
+                            margin: 25px auto;
+                            border-left: 2px solid #54b4fe;
+                            font-size: 16px;
+                            color: #54b4fe;
+                            i{
+                                color: #54b4fe;
+                                margin-right: 20px;
+                                &::before{
+                                    color: #55b4fe;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .right{
+                width: 956px;
+                float: right;
+                background: #fff;
+                margin-bottom: 40px;
+                border-radius: 10px;
+                .r-top{
+                    width: 100%;
+                    height: 60px;
+                    border-bottom: 1px solid #dcdfe6;
+                    p{
+                        height: 58px;
+                        line-height: 58px;
+                        float: left;
+                        margin: 0 0 0 3%;
+                        cursor: pointer;
+                        font-size: 18px;
+                        color: #999;
+                        border-bottom: 2px solid #fff;
+                    }
+                    .tap{
+                        height: 58px;
+                        line-height: 58px;
+                        float: left;
+                        margin: 0 0 0 3%;
+                        cursor: pointer;
+                        font-size: 18px;
+                        color: #666;
+                        border-bottom: 2px solid #54b4fe;
+                    }
+                }
+                .r-bottom{
+                    width: 100%;
+                    .msg{
+                        width: 94%;
+                        height: 60px;
+                        margin: 10px auto;
+                        .name{
+                            float: left;
+                            line-height: 60px;
+                            width: 130px;
+                            font-size: 16px;
+                            color: #999;
+                        }
+                        .cont{
+                            line-height: 60px;
+                            float: left;
+                            width: 500px;
+                            font-size: 16px;
+                            color: #999;
+                        }
+                        input{
+                            width: 500px;
+                            height: 60px;
+                            border: 0;
+                            background: #fff;
+                            font-size: 16px;
+                            float: left;
+                            &::placeholder{
+                                color: #999;
+                            }
+                            &:focus{
+                                color: #666;
+                            }
+                        }
+                    }
+                    .errorMsg{
+                        width: 100%;
+                        text-align: center;
+                        color: red;
+                        font-size: 12px;
+                    }
+                    .save{
+                        width: 188px;
+                        height: 40px;
+                        background: #fff;
+                        margin: 20px auto 40px;
+                        line-height: 40px;
+                        text-align: center;
+                        border: 1px solid #54b4fe;
+                        color: #54b4fe;
+                        cursor: pointer;
+                        &:hover{
+                            background: #54b4fe;
+                            color: #fff;
+                        }
+                    }
+                    .compile{
+                        width: 188px;
+                        height: 40px;
+                        background: #fff;
+                        line-height: 40px;
+                        text-align: center;
+                        margin: 20px auto 40px;
+                        cursor: pointer;
+                        border: 1px solid #54b4fe;
+                        color: #54b4fe;
+                        &:hover{
+                            background: #54b4fe;
+                            color: #fff;
+                        }
+                    }
+                    .add{
+                        width: 112px;
+                        height: 40px;
+                        line-height: 40px;
+                        text-align: center;
+                        background: #54b4fe;
+                        color: #fff;
+                        cursor: pointer;
+                        margin: 30px 0 23px 3%;
+                    }
+                    .staff{
+                        width: 94%;
+                        margin: 0 auto;
+                        li{
+                            width: 96%;
+                            height: 86px;
+                            margin: 20px auto;
+                            padding: 20px 20px;
+                            background: #f9f9f9;
+                            div{
+                                float: left;
+                            }
+                            .s-left{
+                                width: 29%;
+                                height: 100%;
+                                p{
+                                    padding: 10px 0;
+                                    font-size: 14px;
+                                }
+                            }
+                            .s-middle{
+                                width: 45%;
+                                height: 100%;
+                                p{
+                                    padding: 10px 0;
+                                    font-size: 14px;
+                                }
+                            }
+                            .s-right{
+                                width: 24%;
+                                height: 100%;
+                                p{
+                                    padding: 10px 0;
+                                    font-size: 14px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .safe{
+                    width: 956px;
+                    height: 480px;
+                    overflow: hidden;
+                    .bound{
+                        height: 46px;
+                        width: 90%;
+                        line-height: 46px;
+                        margin: 20px auto;
+                        span{
+                            display: inline-block;
+                            width: 100px;
+                        }
+                        input{
+                            display: inline-block;
+                            width: 580px;
+                            height: 44px;
+                            padding: 0 10px;
+                            border: 1px solid #eee;
+                            background: #f6f6f6;
+                            font-size: 14px;
+                            &::placeholder{
+                                color: #ccc;
+                            }
+                            &:focus{
+                                color: #666;
+                                border: 1px solid #54b4fe;
+                                background: #fff;
+                            }
+                        }
+                        .boundGetimgCode{
+                            display: inline-block;
+                            width: 144px;
+                            height: 44px;
+                            line-height: 44px;
+                            text-align: center;
+                            border: 1px solid #eee;
+                            font-size: 14px;
+                            color: #ccc;
+                            background: #f6f6f6;
+                        }
+                    }
+                    .bound:nth-child(1){
+                        margin-top: 40px;
+                    }
+                    .bound:nth-child(2){
+                        input{
+                            width: 410px;
+                            margin-right: 20px;
+                        }
+                    }
+                    .errorMsg{
+                        width: 100%;
+                        text-align: center;
+                        color: red;
+                        font-size: 12px;
+                    }
+                    .bound-btn{
+                        width: 188px;
+                        height: 40px;
+                        line-height: 40px;
+                        text-align: center;
+                        margin: 40px auto 0;
+                        border: 1px solid #54b4fe;
+                        color: #54b4fe;
+                        cursor: pointer;
+                        &:hover{
+                            background: #54b4fe;
+                            color: #fff;
+                        }
+                    }
+                }
+                .password{
+                    width: 956px;
+                    height: 480px;
+                    overflow: hidden;
+                    .bound{
+                        height: 46px;
+                        width: 90%;
+                        line-height: 46px;
+                        margin: 20px auto;
+                        span{
+                            display: inline-block;
+                            width: 120px;
+                        }
+                        input{
+                            display: inline-block;
+                            width: 580px;
+                            height: 44px;
+                            padding: 0 10px;
+                            border: 1px solid #eee;
+                            background: #f6f6f6;
+                            font-size: 14px;
+                            &::placeholder{
+                                color: #ccc;
+                            }
+                            &:focus{
+                                color: #666;
+                                border: 1px solid #54b4fe;
+                                background: #fff;
+                            }
+                        }
+                        .boundGetimgCode{
+                            display: inline-block;
+                            width: 144px;
+                            height: 44px;
+                            line-height: 44px;
+                            text-align: center;
+                            border: 1px solid #eee;
+                            font-size: 14px;
+                            color: #ccc;
+                            background: #f6f6f6;
+                        }
+                    }
+                    .bound:nth-child(1){
+                        margin-top: 40px;
+                    }
+                    .errorMsg{
+                        width: 100%;
+                        text-align: center;
+                        color: red;
+                        font-size: 12px;
+                    }
+                    .bound-btn{
+                        width: 188px;
+                        height: 40px;
+                        line-height: 40px;
+                        text-align: center;
+                        margin: 40px auto 0;
+                        border: 1px solid #54b4fe;
+                        color: #54b4fe;
+                        cursor: pointer;
+                        &:hover{
+                            background: #54b4fe;
+                            color: #fff;
+                        }
+                    }
+                }
+                .signature{
+                    width: 956px;
+                    height: 480px;
+                    overflow: hidden;
+                    .signatureBox{
+                        width: 188px;
+                        height: 190px;
+                        margin: 145px auto;
+                        img{
+                            display: block;
+                            margin: 0 auto 15px;
+                        }
+                        p{
+                            width: 100%;
+                            text-align: center;
+                            font-size: 14px;
+                            margin-bottom: 40px;
+                            color: #bbb;
+                        }
+                        .signatureBtn{
+                            width: 188px;
+                            height: 40px;
+                            line-height: 40px;
+                            text-align: center;
+                            background: #54b4fe;
+                            color: #fff;
+                            font-size: 14px;
+                            cursor: pointer;
+                        }
+                    }
+                }
+                .bank{
+                    width: 956px;
+                    height: 480px;
+                    overflow: hidden;
+                    .signatureBox{
+                        width: 188px;
+                        height: 190px;
+                        margin: 145px auto;
+                        img{
+                            display: block;
+                            margin: 0 auto 15px;
+                        }
+                        p{
+                            width: 100%;
+                            text-align: center;
+                            font-size: 14px;
+                            margin-bottom: 40px;
+                            color: #bbb;
+                        }
+                        .signatureBtn{
+                            width: 188px;
+                            height: 40px;
+                            line-height: 40px;
+                            text-align: center;
+                            background: #54b4fe;
+                            color: #fff;
+                            font-size: 14px;
+                            cursor: pointer;
+                        }
+                    }
+                }
+                .entityAccount{
+                    width: 956px;
+                    min-height: 480px;
+                    .add{
+                        width: 112px;
+                        height: 40px;
+                         line-height: 40px;
+                        text-align: center;
+                        background: #54b4fe;
+                        color: #fff;
+                        cursor: pointer;
+                        font-size: 14px;
+                        margin: 40px 0 20px 40px;
+                    }
+                    .zhanghu{
+                        width: 876px;
+                        margin: 0 auto 10px;
+                        li{
+                            width: 96%;
+                            height: 54px;
+                            padding: 0 2%;
+                            line-height: 54px;
+                            background: #f9f9f9;
+                            div{
+                                float: left;
+                                margin-right: 50px;
+                                font-size: 14px;
+                                .acountName{
+                                    color: #999;
+                                }
+                                .acountCont{
+                                    color: #666;
+                                }
+                            }
+                        }
+                    }
+                 }
+            }
+        }
+    }
+    .addConpany{
+        .modalBox{
+            width: 100%;
+            height: 400px;
+            overflow: hidden;
+            h3{
+                width: 100%;
+                text-align: center;
+                margin: 22px auto 39px;
+                font-size: 20px;
+                color: #666;
+            }
+            .modalMsg{
+                width: 90%;
+                height: 44px;
+                margin: 20px auto;
+                .modalName{
+                    display: inline-block;
+                    width: 80px;
+                    font-size: 14px;
+                    color: #666;
+                }
+                input{
+                    display: inline-block;
+                    width: 400px;
+                    height: 44px;
+                    padding: 0 15px;
+                    font-size: 14px;
+                    background: #f6f6f6;
+                    border: 1px solid #eee;
+                    &::placeholder{
+                        color: #ccc;
+                    }
+                    &:focus{
+                        color: #666;
+                        border: 1px solid #54b4fe;
+                    }
+                }
+            }
+            .errorMsg{
+                width: 100%;
+                text-align: center;
+                color: red;
+                font-size: 12px;
+            }
+            .modalBtn{
+                width: 320px;
+                height: 40px;
+                margin: 30px auto 10px;
+                .btnOne{
+                    float: left;
+                    width: 144px;
+                    height: 38px;
+                    line-height: 38px;
+                    text-align: center;
+                    border: 1px solid #54b4fe;
+                    color: #54b4fe;
+                    cursor: pointer;
+                    &:hover{
+                        background: #54b4fe;
+                        color: #fff;
+                    }
+                }
+                .btnTwo{
+                    float: right;
+                    width: 144px;
+                    height: 38px;
+                    line-height: 38px;
+                    text-align: center;
+                    border: 1px solid #54b4fe;
+                    color: #54b4fe;
+                    cursor: pointer;
+                    &:hover{
+                        background: #54b4fe;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+    .addPeople{
+        .modalBox{
+            width: 100%;
+            height: 580px;
+            overflow: hidden;
+            h3{
+                width: 100%;
+                text-align: center;
+                margin: 22px auto 39px;
+                font-size: 20px;
+                color: #666;
+            }
+            .modalMsg{
+                width: 90%;
+                height: 44px;
+                margin: 20px auto;
+                .modalName{
+                    display: inline-block;
+                    width: 80px;
+                    font-size: 14px;
+                    color: #666;
+                }
+                input{
+                    display: inline-block;
+                    width: 400px;
+                    height: 44px;
+                    padding: 0 15px;
+                    font-size: 14px;
+                    background: #f6f6f6;
+                    border: 1px solid #eee;
+                    &::placeholder{
+                        color: #ccc;
+                    }
+                    &:focus{
+                        color: #666;
+                        border: 1px solid #54b4fe;
+                    }
+                }
+            }
+            .errorMsg{
+                width: 100%;
+                text-align: center;
+                color: red;
+                font-size: 12px;
+            }
+            .btnOne{
+                display: block;
+                width: 144px;
+                height: 38px;
+                margin: 30px auto;
+                line-height: 38px;
+                text-align: center;
+                border: 1px solid #54b4fe;
+                color: #54b4fe;
+                cursor: pointer;
+                &:hover{
+                    background: #54b4fe;
+                    color: #fff;
+                }
+            }
+        }
+    }
+    .create{
+        .createBox{
+            width: 100%;
+            height: 500px;
+            overflow: hidden;
+            h3{
+                width: 100%;
+                text-align: center;
+                margin: 22px auto 39px;
+                font-size: 20px;
+                color: #666;
+            }
+            .introduce{
+                width: 100%;
+                text-align: center;
+                font-size: 14px;
+                color: #999;
+                span{
+                    color: #54b4fe;
+                }
+            }
+            .input{
+                width: 560px;
+                height: 46px;
+                margin:  29px auto 30px;
+                input{
+                    display: inline-block;
+                    width: 371px;
+                    height: 44px;
+                    padding: 0 0 0 15px;
+                    margin-right: 20px;
+                    font-size: 14px;
+                    background: #eee;
+                    border: 1px solid #eee;
+                    &::placeholder{
+                        color: #ccc;
+                    }
+                }
+                span{
+                    display: inline-block;
+                    width: 144px;
+                    height: 44px;
+                    line-height: 44px;
+                    text-align: center;
+                    border: 1px solid #54b4fe;
+                    color: #54b4fe;
+                    cursor: pointer;
+                }
+            }
+            .zhang{
+                width: 560px;
+                height: 164px;
+                margin: 0 auto 10px;
+                border: 1px solid #eee;
+                img{
+                    display: block;
+                    width: 114px;
+                    height: 114px;
+                    margin: 14px auto 10px;
+                }
+                p{
+                    width: 100%;
+                    margin-bottom: 10px;
+                    text-align: center;
+                    font-size: 12px;
+                    color: #999;
+                }
+            }
+            .errorMsg{
+                width: 100%;
+                text-align: center;
+                color: red;
+                font-size: 12px;
+            }
+            .btnBox{
+                width: 320px;
+                height: 40px;
+                margin: 30px auto 40px;
+                span{
+                    width: 144px;
+                    height: 40px;
+                    line-height: 40px;
+                    text-align: center;
+                    font-size: 14px;
+                    border: 1px solid #eee;
+                    color: #999;
+                    cursor: pointer;
+                    &:hover{
+                        background: #54b4fe;
+                        color: #fff;
+                    }
+                }
+                .btnOne{
+                    float: left;
+                }
+                .btnTwo{
+                    float: right;
+                }
+            }
+        }
+    }
+}

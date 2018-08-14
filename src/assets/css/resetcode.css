@@ -1,0 +1,190 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.reset .main{
+    width:100%;
+    background: #f9fcff;
+    height: 868px;
+    padding:40px 0;
+}
+.reset .main .container{
+    width: 1200px;
+    height: 716px;
+    margin: 0 auto;
+    overflow: hidden;
+    background: #fff;
+
+}
+
+.reset .main .container .left{
+    float: left;
+
+}
+.reset .main .container .right{
+    float: right;
+    padding:30px 50px 195px 30px;
+    background: #ffffff;
+    overflow: hidden;
+}
+.reset .main .container div.res3{
+    padding:30px 100px 154px 30px;
+}
+.reset .main .container .right .top{
+    overflow: hidden;
+    margin:110px 0 30px 40px;
+}
+.reset .main .container .right ul li{
+    list-style: none;
+    float: left;
+    padding:0 10px;
+    text-align: center;
+    font-size: 14px;
+}
+.reset .main .container .right ul li .p2{
+    padding-top: 6px;
+}
+.reset .main .container .right ul li .p1{
+    padding:6px 10px;
+}
+.reset .main .container .right ul li.img{
+    padding-top: 10px;
+}
+
+.reset .main .container .phone .input-box{
+    width:550px;
+    position: relative;
+
+}
+.reset .main .container .phone  span{
+    position: absolute;
+    left: 24px;
+    top: 50%;
+    font-size: 14px;
+    color: #000;
+    margin-top: -10px;
+}
+.reset .main .container .phone .input-box input{
+    width: 390px;
+    height: 42px;
+    padding-left: 108px;
+    border: 1px solid #eeeeee;
+    font-size: 14px;
+}
+.reset .main .container .phone .input-box {
+    padding: 5px;
+    font-size: 14px;
+}
+.reset .main .container .phone .error {
+    padding: 5px;
+    font-size: 14px;
+    color: #f46c6c;
+    height:20px;
+}
+.reset .main .container .phone .error div {
+    color: #f46c6c;
+    font-size: 12px;
+}
+.reset .main .container .phone .error img{
+    vertical-align: middle;
+    width: 13px;
+}
+
+.reset .main .container .verify-code .input-box input{
+    width: 160px;
+}
+.reset .main .container .verify-code img.code{
+    vertical-align: middle;
+    margin: 0 12px;
+}
+.reset .main .container b{
+    font-weight:400;
+    cursor: pointer;
+}
+.reset .main .container .phone .input-box button.get{
+    position: absolute;
+    right: 62px;
+    top: 50%;
+    color: #54b4fe;
+    font-size: 14px;
+    background: #fff;
+    border: 0;
+    width: 80px;
+    text-align: center;
+    margin-top: -10px;
+}
+.reset .main .container .phone .input-box button:disabled{
+    color: #999993;
+    cursor: not-allowed;
+}
+.reset .main .container .phone input.checkbox{
+    margin-left: 5px;
+}
+.reset .main .container .phone b{
+    font-size: 12px;
+}
+.reset .main .container .phone b.rules a{
+    text-decoration: underline;
+    font-size: 12px;
+    color: #54b4fe;
+}
+.reset .main .container .phone div.submit{
+    height: 44px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 44px;
+    color: #fff;
+    background: #54b4fe;
+    margin-top: 30px;
+    cursor: pointer;
+    width: 300px;
+    margin-left: 100px;
+}
+.reset .main .container .phone span b{
+    color: #f46c6c;
+}
+.reset .main .container .phone div.success{
+    text-align: center;
+    margin-top:100px;
+}
+.reset .main .container .phone div.success{
+    text-align: center;
+    margin-top:100px;
+}
+.reset .main .container .phone .p1{
+    text-align: center;
+    margin-top:20px;
+    font-size:16px;
+    color: #cccccc;
+}
+.reset .main .container .phone .p2{
+    text-align: center;
+    margin: 30px 0 70px 0;
+    font-size: 24px;
+    color: #54b4fe;
+}
+.reset .main .container .right p.title{
+    font-size: 20px;
+    color: #5fb9fe;
+    margin: 130px 0 30px 0;
+    text-align: center;
+    font-weight: 500;
+}
+.reset .main .container .right .info .forget{
+    float: left;
+    font-size: 14px;
+    color: #5fb9fe;
+    text-decoration: underline;
+    margin-top:20px;
+}
+.reset .main .container .right .info .register {
+    font-size: 14px;
+    color: #5fb9fe;
+    float: right;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+.submit a{
+    color:#ffffff;
+}

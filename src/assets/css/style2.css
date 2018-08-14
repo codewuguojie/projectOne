@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+html{
+    font-family: 'Arial', 'MS Trebuchet', sans-serif;
+    background: #fbfdff;
+    color: #bbb;
+}
+/*首页第一部分 */
+.upload-box{
+    width: 100%;
+    background: #fbfdff;
+}
+
+.upload-box .mid{
+    width: 1200PX;
+    margin: 60px auto 0;
+}
+
+.upload-box .mid .text{
+    width: 1000px;
+    margin-left: 100px;
+    background: #fff;
+    margin-top: 20px;
+    padding: 0 50px 50px;
+    box-shadow: 0 0 5px #d4e6f5;
+}
+.upload-box .mid .text h2{
+    text-align: center;
+    padding: 40px 0;
+}
+.upload-box .mid .text .wenben h4{
+    padding: 0 0 10px 50px;
+    font-size: 18px;
+}
+.upload-box .mid .text .wenben a{
+    color: blue;
+    display: block;
+    width: 350px;
+    color: #54b4fe;
+    text-decoration: underline;
+    margin: 20px 0 20px 50px;
+    cursor: pointer ;
+}
+.upload-box .mid .text .tips{
+    clear: both;
+    padding-left: 50px;
+    padding-top: 20px;
+    color: #bbb;
+}
+.upload-box .mid .text .wenben h4 img{
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    margin-right: 10px;
+    vertical-align: text-top;
+}
+
+
+
+

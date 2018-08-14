@@ -1,0 +1,395 @@
+.apply {
+  width: 100%;
+  background: #f9f9f9; }
+  .apply .content {
+    width: 100%; }
+    .apply .content .position {
+      width: 1200px;
+      margin: 15px auto; }
+      .apply .content .position img {
+        margin-right: 5px; }
+      .apply .content .position span {
+        font-size: 12px;
+        color: #bbb; }
+    .apply .content .process {
+      width: 1200px;
+      background: #fff;
+      margin: 0 auto;
+      border-radius: 10px 10px 0 0;
+      border-bottom: 1px solid #ccc;
+      overflow: hidden; }
+      .apply .content .process .L-top {
+        width: 95%;
+        height: 70px;
+        line-height: 70px;
+        margin-left: 5%; }
+        .apply .content .process .L-top img {
+          float: left;
+          width: 22px;
+          height: 22px;
+          margin-top: 24px;
+          margin-right: 10px; }
+        .apply .content .process .L-top span {
+          float: left;
+          font-size: 20px;
+          color: #666; }
+    .apply .content .finance-type {
+      clear: both;
+      width: 1200px;
+      background: #fff;
+      margin: 0 auto;
+      padding-top: 20px;
+      overflow: hidden; }
+      .apply .content .finance-type .title {
+        width: 90%;
+        margin: 0 5%;
+        overflow: hidden; }
+        .apply .content .finance-type .title .left {
+          float: left;
+          width: 130px;
+          font-size: 14px;
+          color: #666; }
+        .apply .content .finance-type .title .right {
+          float: left; }
+          .apply .content .finance-type .title .right .one {
+            font-size: 14px;
+            color: #666; }
+          .apply .content .finance-type .title .right .two {
+            font-size: 12px;
+            color: #ff942a; }
+      .apply .content .finance-type .msg-box {
+        width: 90%;
+        margin: 15px 5% 15px;
+        clear: both;
+        overflow: hidden;
+        height: 46px; }
+        .apply .content .finance-type .msg-box .name {
+          display: inline-block;
+          width: 130px;
+          height: 46px;
+          line-height: 46px; }
+          .apply .content .finance-type .msg-box .name b {
+            font-size: 14px;
+            color: red; }
+          .apply .content .finance-type .msg-box .name span {
+            font-size: 14px;
+            color: #666; }
+        .apply .content .finance-type .msg-box input {
+          display: inline-block;
+          width: 400px;
+          height: 44px;
+          padding: 0 10px;
+          border: 0;
+          background: #f6f6f6;
+          color: #ccc;
+          font-size: 14px; }
+        .apply .content .finance-type .msg-box input:focus {
+          border: 1px solid #54b4fe;
+          color: #666; }
+        .apply .content .finance-type .msg-box input::placeholder {
+          color: #ccc; }
+        .apply .content .finance-type .msg-box .applyBtnBox {
+          display: inline-block;
+          width: 820px;
+          height: 44px;
+          overflow: hidden; }
+          .apply .content .finance-type .msg-box .applyBtnBox .choseBtn {
+            float: left;
+            width: 152px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            margin-right: 20px;
+            background: #54b4fe;
+            color: #fff;
+            font-size: 14px;
+            cursor: pointer; }
+          .apply .content .finance-type .msg-box .applyBtnBox .addBtn {
+            float: left;
+            width: 152px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            margin-right: 20px;
+            background: #54b4fe;
+            color: #fff;
+            font-size: 14px;
+            cursor: pointer; }
+        .apply .content .finance-type .msg-box .bankAccount {
+          width: 800px;
+          height: 44px;
+          display: inline-block;
+          background: #f6fbff; }
+          .apply .content .finance-type .msg-box .bankAccount .zhanghu {
+            width: 876px;
+            margin: 0 auto; }
+            .apply .content .finance-type .msg-box .bankAccount .zhanghu li {
+              width: 96%;
+              height: 44px;
+              padding: 0 2%;
+              line-height: 44px;
+              background: #f9f9f9; }
+              .apply .content .finance-type .msg-box .bankAccount .zhanghu li div {
+                float: left;
+                margin-right: 50px;
+                font-size: 14px; }
+                .apply .content .finance-type .msg-box .bankAccount .zhanghu li div .acountName {
+                  color: #999; }
+                .apply .content .finance-type .msg-box .bankAccount .zhanghu li div .acountCont {
+                  color: #666; }
+    .apply .content .upLoad {
+      width: 1200px;
+      border-radius: 0 0 10px 10px;
+      background: #fff;
+      margin: 0 auto 60px;
+      overflow: hidden; }
+      .apply .content .upLoad .up-file {
+        width: 90%;
+        margin: 0 auto 20px;
+        overflow: hidden; }
+        .apply .content .upLoad .up-file .file-name {
+          width: 200px;
+          float: left; }
+          .apply .content .upLoad .up-file .file-name b {
+            color: red; }
+          .apply .content .upLoad .up-file .file-name span {
+            font-size: 14px;
+            color: #666; }
+        .apply .content .upLoad .up-file .fileInput {
+          float: left; }
+          .apply .content .upLoad .up-file .fileInput .fileInputBox {
+            width: 125px;
+            height: 40px;
+            line-height: 40px;
+            border: 1px solid #54b4fe;
+            position: relative; }
+            .apply .content .upLoad .up-file .fileInput .fileInputBox img {
+              vertical-align: text-top;
+              margin-left: 20px; }
+            .apply .content .upLoad .up-file .fileInput .fileInputBox span {
+              color: #54b4fe; }
+            .apply .content .upLoad .up-file .fileInput .fileInputBox input {
+              width: 100%;
+              height: 100%;
+              opacity: 0;
+              position: absolute;
+              top: 0;
+              left: 0;
+              cursor: pointer; }
+          .apply .content .upLoad .up-file .fileInput .file-tips {
+            margin-top: 10px;
+            font-size: 12px;
+            color: #bbb; }
+      .apply .content .upLoad ul {
+        width: 90%;
+        margin: 15px auto 40px; }
+        .apply .content .upLoad ul li {
+          width: 500px;
+          margin: 10px 0 20px 200px;
+          overflow: hidden; }
+          .apply .content .upLoad ul li .file-top {
+            width: 100%;
+            margin-bottom: 5px;
+            overflow: hidden; }
+            .apply .content .upLoad ul li .file-top .left {
+              float: left; }
+              .apply .content .upLoad ul li .file-top .left img {
+                margin-right: 10px; }
+              .apply .content .upLoad ul li .file-top .left span {
+                font-size: 14px;
+                color: #54b4fe; }
+            .apply .content .upLoad ul li .file-top .right {
+              float: right;
+              cursor: pointer; }
+          .apply .content .upLoad ul li .file-bottom {
+            width: 100%;
+            height: 1px;
+            position: relative; }
+            .apply .content .upLoad ul li .file-bottom .ccc {
+              width: 100%;
+              height: 1px;
+              background: #ccc; }
+            .apply .content .upLoad ul li .file-bottom .blue {
+              width: 50%;
+              height: 1px;
+              background: #54b4fe;
+              position: absolute;
+              top: 0;
+              left: 0; }
+      .apply .content .upLoad .btn {
+        width: 300px;
+        height: 44px;
+        line-height: 44px;
+        text-align: center;
+        margin: 0 auto 40px;
+        background: #54b4fe;
+        color: #fff;
+        cursor: pointer; }
+    .apply .content .success {
+      width: 1200px;
+      height: 510px;
+      margin: 0 auto 20px;
+      background: #fff;
+      overflow: hidden; }
+      .apply .content .success img {
+        display: block;
+        width: 72px;
+        height: 72px;
+        margin: 180px auto 20px; }
+      .apply .content .success h3 {
+        font-size: 18px;
+        color: #666;
+        width: 100%;
+        margin-bottom: 30px;
+        text-align: center; }
+      .apply .content .success p {
+        font-size: 12px;
+        color: #999;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center; }
+      .apply .content .success .btn {
+        width: 220px;
+        height: 40px;
+        background: #54b4fe;
+        color: #fff;
+        line-height: 40px;
+        text-align: center;
+        margin: 0 auto; }
+  .apply .choseQYST {
+    overflow: hidden; }
+    .apply .choseQYST h3 {
+      width: 100%;
+      text-align: center;
+      margin: 22px auto 39px;
+      font-size: 20px;
+      color: #666; }
+    .apply .choseQYST ul {
+      width: 100%;
+      height: 350px;
+      overflow-y: scroll; }
+      .apply .choseQYST ul li {
+        width: 90%;
+        height: 85px;
+        margin: 30px auto; }
+        .apply .choseQYST ul li .radio {
+          width: 20px;
+          height: 20px;
+          float: left;
+          overflow: hidden;
+          margin: 34px auto;
+          border-radius: 50%;
+          border: 1px solid #54b4fe;
+          color: #fff; }
+        .apply .choseQYST ul li .active {
+          width: 20px;
+          height: 20px;
+          float: left;
+          overflow: hidden;
+          margin: 34px auto;
+          border-radius: 50%;
+          border: 1px solid #54b4fe;
+          background: #54b4fe;
+          color: #fff; }
+        .apply .choseQYST ul li .infoShow {
+          float: left;
+          width: 90%;
+          height: 85px;
+          margin-left: 10px;
+          background: #f6f6f6; }
+          .apply .choseQYST ul li .infoShow p {
+            float: left;
+            margin-top: 16px;
+            margin-left: 20px;
+            font-size: 14px; }
+            .apply .choseQYST ul li .infoShow p .infoTitle {
+              color: #999; }
+            .apply .choseQYST ul li .infoShow p .infoMsg {
+              color: #666; }
+    .apply .choseQYST .btnBox {
+      width: 320px;
+      height: 40px;
+      margin: 30px auto 40px; }
+      .apply .choseQYST .btnBox span {
+        width: 144px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        font-size: 14px;
+        border: 1px solid #eee;
+        color: #999;
+        cursor: pointer; }
+        .apply .choseQYST .btnBox span:hover {
+          background: #54b4fe;
+          color: #fff; }
+      .apply .choseQYST .btnBox .btnOne {
+        float: left; }
+      .apply .choseQYST .btnBox .btnTwo {
+        float: right; }
+  .apply .addConpany .modalBox {
+    width: 100%;
+    height: 400px;
+    overflow: hidden; }
+    .apply .addConpany .modalBox h3 {
+      width: 100%;
+      text-align: center;
+      margin: 22px auto 39px;
+      font-size: 20px;
+      color: #666; }
+    .apply .addConpany .modalBox .modalMsg {
+      width: 90%;
+      height: 44px;
+      margin: 20px auto; }
+      .apply .addConpany .modalBox .modalMsg .modalName {
+        display: inline-block;
+        width: 80px;
+        font-size: 14px;
+        color: #666; }
+      .apply .addConpany .modalBox .modalMsg input {
+        display: inline-block;
+        width: 400px;
+        height: 44px;
+        padding: 0 15px;
+        font-size: 14px;
+        background: #f6f6f6;
+        border: 1px solid #eee; }
+        .apply .addConpany .modalBox .modalMsg input::placeholder {
+          color: #ccc; }
+        .apply .addConpany .modalBox .modalMsg input:focus {
+          color: #666;
+          border: 1px solid #54b4fe; }
+    .apply .addConpany .modalBox .errorMsg {
+      width: 100%;
+      text-align: center;
+      color: red;
+      font-size: 12px; }
+    .apply .addConpany .modalBox .modalBtn {
+      width: 320px;
+      height: 40px;
+      margin: 30px auto 10px; }
+      .apply .addConpany .modalBox .modalBtn .btnOne {
+        float: left;
+        width: 144px;
+        height: 38px;
+        line-height: 38px;
+        text-align: center;
+        border: 1px solid #54b4fe;
+        color: #54b4fe;
+        cursor: pointer; }
+        .apply .addConpany .modalBox .modalBtn .btnOne:hover {
+          background: #54b4fe;
+          color: #fff; }
+      .apply .addConpany .modalBox .modalBtn .btnTwo {
+        float: right;
+        width: 144px;
+        height: 38px;
+        line-height: 38px;
+        text-align: center;
+        border: 1px solid #54b4fe;
+        color: #54b4fe;
+        cursor: pointer; }
+        .apply .addConpany .modalBox .modalBtn .btnTwo:hover {
+          background: #54b4fe;
+          color: #fff; }
+
+/*# sourceMappingURL=apply.css.map */
